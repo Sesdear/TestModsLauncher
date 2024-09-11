@@ -1,0 +1,594 @@
+{
+	hide_tooltip: true
+	icon: "botania:dice"
+	id: "09BB29EB1534C81B"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{ count: 2, item: "sophisticatedstorage:iron_to_gold_tier_upgrade" }
+		{ count: 4, item: "sophisticatedstorage:copper_to_iron_tier_upgrade" }
+		{ count: 16, item: "copycats:copycat_cogwheel" }
+		{ count: 32, item: "create_connected:copycat_box" }
+		{ item: "botania:cosmetic_groucho_glasses" }
+		{ item: "jigsaw_pp:useless_pie" }
+		{ count: 16, item: "pointblank:lead_ball" }
+		{ item: "jigsaw_pp:gay" }
+		{ count: 8, item: "thermal:lumium_ingot" }
+		{ count: 8, item: "thermal:enderium_ingot" }
+		{ count: 8, item: "thermal:signalum_ingot" }
+		{ count: 16, item: "create:andesite_alloy" }
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:fork"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "piglet_structures:spiky_fork"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:pitchfork"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			type: "xp_levels"
+			xp_levels: 15
+		}
+		{ count: 3, item: "chancecubes:chance_cube" }
+		{ item: "chancecubes:compact_giant_chance_cube", weight: 0.5f }
+		{
+			command: "/effect give @p jigsaw_pp:purgative 99999 1"
+			elevate_perms: true
+			icon: {
+				Count: 1
+				id: "minecraft:splash_potion"
+				tag: {
+					Potion: "mutantmonsters:chemical_x"
+				}
+			}
+			silent: true
+			title: "Сюрприз"
+			type: "command"
+		}
+		{
+			command: "/effect give @p jigsaw_pp:poop 99999 1"
+			elevate_perms: true
+			icon: "create_enchantment_industry:hyper_experience_bottle"
+			silent: true
+			title: "Сюрприз"
+			type: "command"
+		}
+		{
+			command: "/effect give @p jigsaw_pp:bvsod 99999 1"
+			elevate_perms: true
+			icon: {
+				Count: 1
+				id: "minecraft:potion"
+				tag: {
+					Potion: "mutantmonsters:chemical_x"
+				}
+			}
+			silent: true
+			title: "Сюприз"
+			type: "command"
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:blacksmith_hammer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "magistuarmory:club"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 6, item: "farmersdelight:kelp_roll" }
+		{ item: "dummmmmmy:target_dummy" }
+		{ item: "create_dd:giant_gear" }
+		{ item: "piglet_structures:huge_crafting_table" }
+		{ item: "jigsaw_pp:ponos_bucket" }
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:basic_purgen_pilule"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:nuclear_purgen_pilule"
+				tag: { }
+			}
+		}
+		{ item: "jigsaw_pp:marmoset" }
+		{ item: "jigsaw_pp:purgen_factory_big_thumb" }
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:prh_tnt"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:prh_purity"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:prh_clock"
+				tag: { }
+			}
+		}
+		{ count: 64, item: "kubejs:pig_tuff" }
+		{
+			item: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 2
+					}
+				}
+				id: "piglet_structures:gold_upgrader"
+			}
+		}
+		{ count: 8, item: "minecraft:egg" }
+		{ item: "create:sturdy_sheet" }
+		{
+			item: {
+				Count: 1
+				id: "destroy:redstone_infused_beetroot"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "destroy:diamond_infused_beetroot"
+				tag: { }
+			}
+		}
+		{ count: 8, item: "jigsaw_pp:pomato" }
+		{ item: "jigsaw_pp:teapot" }
+		{ item: "jigsaw_pp:black_teapot" }
+		{ count: 32, item: "jigsaw_pp:sweet_bread" }
+		{ count: 64, item: "jigsaw_pp:pooped_bricks" }
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:pigkaxe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:beaver_bomb"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "jigsaw_pp:paddle"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:pizdoor"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:beaver_staff"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "jigsaw_pp:dellist" }
+		{ item: "jigsaw_pp:bottle_o_pricel" }
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:friendship_fan"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "jigsaw_pp:plate_bread" }
+		{ item: "jigsaw_pp:jetstream_chair" }
+		{ count: 4, item: "jigsaw_pp:drist_tnt_stick" }
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:skewer"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "jigsaw_pp:drist_button" }
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:nutcracker"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:shit_stick"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 4, item: "jigsaw_pp:sawdust_soup" }
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:cross"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:plunger"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "jigsaw_pp:drist_tnt" }
+		{ count: 2, item: "jigsaw_pp:half_heart_of_the_sea" }
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:tree_launcher"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "minecraft:bedrock", weight: 0.05f }
+		{ item: "botania:cosmetic_ancient_mask" }
+		{ count: 4, item: "alexscaves:waste_drum" }
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:friendship_fan"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:beaweed_checker"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:ladle"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			count: 2
+			item: {
+				Count: 1
+				id: "jigsaw_pp:arm"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "jigsaw_pp:pw_hat" }
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:beaverzooka"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 4, item: "jigsaw_pp:pooped_bread" }
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:slon_gun_green"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:slon_gun"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:beaver_knife"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:beaver_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "jigsaw_pp:slongun_costil" }
+		{
+			item: {
+				Count: 1
+				id: "botania:dice"
+				tag: {
+					soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+				}
+			}
+			weight: 0.5f
+		}
+		{ count: 64, item: "pneumaticcraft:plastic_brick_red" }
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "destroy:yeast"
+				tag: { }
+			}
+		}
+		{
+			count: 16
+			item: {
+				Count: 1
+				id: "destroy:playwell"
+				tag: { }
+			}
+		}
+		{ item: "minecraft:totem_of_undying" }
+		{ item: "jigsaw_pp:totem_of_shit" }
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:eggs"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "jigsaw_pp:tube_19" }
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:gas_mask_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:extinguisher"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "jigsaw_pp:purgen_bundle" }
+		{ item: "jigsaw_pp:yoba" }
+		{ item: "jigsaw_pp:yoba_poop" }
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:jotaro_hat"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "jigsaw_pp:admin_stick" }
+		{ item: "jigsaw_pp:shit_cup" }
+		{ item: "jigsaw_pp:lenin_bust" }
+		{ item: "jigsaw_pp:beaver_computer" }
+		{ item: "jigsaw_pp:batch_size_card" }
+		{ item: "jigsaw_pp:beaweed_scum" }
+		{ item: "piglet_structures:suspicious_garden_gnome" }
+		{
+			item: {
+				Count: 1
+				id: "jigsaw_pp:beaver_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "selfexpression:nerkin_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ count: 5, item: "piglet_structures:fireball_single_use" }
+		{ item: "garnished:stew_of_the_damned" }
+		{ item: "garnished:putrid_stew" }
+		{ item: "jigsaw_pp:beaweed_soup" }
+		{
+			item: {
+				Count: 1
+				id: "piglet_structures:fireball_rechargable"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "piglet_structures:workbench_tabletop" }
+		{ item: "piglet_structures:packed_ice_skull_sculpture" }
+		{ count: 4, item: "piglet_structures:piglet_neon" }
+		{ item: "piglet_structures:dry_bread_mysterious" }
+		{ item: "piglet_structures:jpg" }
+		{ item: "piglet_structures:lavobsidianator_300000" }
+		{ item: "piglet_structures:acid_bucket" }
+		{
+			item: {
+				Count: 1
+				id: "piglet_structures:leaf_sword"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "piglet_structures:pickaxe_diamond"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "piglet_structures:garden_owner_stick"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "piglet_structures:bonk"
+				tag: {
+					Damage: 0
+				}
+			}
+		}
+		{ item: "estrogen:uwu" }
+		{ count: 8, item: "estrogen:crystal_estrogen_pill" }
+		{
+			count: 3
+			item: {
+				Count: 1
+				id: "destroy:baby_blue_syringe"
+				tag: { }
+			}
+		}
+		{ count: 16, item: "piglet_structures:moon_parsley" }
+		{ item: "createbigcannons:ram_rod" }
+		{ item: "createbigcannons:worm" }
+		{
+			command: "/execute at @a run summon jigsaw_pp:beaver_bomb ~ ~ ~"
+			elevate_perms: true
+			icon: {
+				Count: 1
+				id: "jigsaw_pp:beaver_bomb"
+				tag: {
+					Damage: 0
+				}
+			}
+			silent: true
+			title: "Бобробомба"
+			type: "command"
+		}
+		{
+			command: "/item modify entity @p armor.legs with jigsaw_pp:moss_elephant_thumb"
+			elevate_perms: true
+			icon: "minecraft:moss_block"
+			silent: true
+			title: "moss elephant thumb"
+			type: "command"
+		}
+		{ count: 16, item: "minecraft:iron_ingot" }
+		{ count: 4, item: "minecraft:diamond" }
+		{ count: 8, item: "minecraft:gold_ingot" }
+		{ count: 32, item: "piglet_structures:crunchy_copper" }
+		{ item: "alexsmobs:spawn_egg_elephant" }
+		{ item: "botania:tiny_potato" }
+		{ count: 4, item: "alexsmobs:leafcutter_ant_pupa" }
+		{
+			command: "/execute at @r summon jigsaw_pp:teapod_spider"
+			elevate_perms: true
+			icon: "jigsaw_pp:teapod_spider_spawn_egg"
+			silent: true
+			title: "ЧП"
+			type: "command"
+		}
+		{ item: "jigsaw_pp:teapod_spider_spawn_egg" }
+		{ item: "jigsaw_pp:shit_cup" }
+	]
+	title: "Бобровая рулетка"
+	use_title: true
+}

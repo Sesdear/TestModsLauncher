@@ -1,0 +1,5579 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "096EC5F12D78A4E4"
+	group: ""
+	icon: {
+		Count: 1
+		id: "jigsaw_pp:beaweed_nut"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "096EC5F12D78A4E4"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Dristpunk 3 - амбициозный модовый сервер с не менее амбициозной сборкой. В этом гайде вас проведут за ручку по главным моментам прогрессии и расскажут некоторые нюансы."
+				"Если вы играете в модовый майнкрафт впервые не бойтесь спрашивать у других игроков!"
+				""
+				"Главный мод в сборке - Create."
+				"Если вы с модом не знакомы тут есть встроенная функция \"думанья\" зажав W на предмете."
+				"Наведясь на любой предмет можно посмотреть его крафты нажимая R и U (JEI)"
+				""
+				"Create не единственный мод, тут их очень много и в данном гайде я постараюсь провести экскурс по самым интересным, остальные можете посмотреть в интернете/проводнике."
+				""
+				"Рекомендую кстати самому лазить по JEI и искать смешные предметы, в гайде нет многих модов."
+			]
+			icon: "jigsaw_pp:raw_teapot"
+			id: "345B4BE444EA1F23"
+			rewards: [
+				{
+					count: 3
+					id: "4607443BFA1C1977"
+					item: "rats:rat_burger"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "032F0B4D3B20E188"
+					item: "minecraft:torch"
+					type: "item"
+				}
+				{
+					id: "49188BD2CF23BDB3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 3.0d
+			tasks: [{
+				id: "186DAFB9A8FC3F6E"
+				title: "Вступление"
+				type: "checkmark"
+			}]
+			x: -3.5999999999999996d
+			y: -3.049999999999999d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: [
+				"ПОШЁЛ РАБОТАТЬ В ПВЗ"
+				"@"
+				"ТВОЙ НАЧАЛЬНИК - КАКОЙ ТО МУЖИК С КАСТРЮЛЕЙ НА ГОЛОВЕ"
+				"@"
+				"ДРУГ КАЖДУЮ НЕДЕЛЮ ЗАКАЗЫВАЕТ ПО 5 КГ НАВОЗА И НЕ ЗАБИРАЕТ"
+				"@"
+				"ТЕБЯ УБИЛ ГОРОХОСТРЕЛ"
+			]
+			id: "421C873CEC330A69"
+			rewards: [
+				{
+					id: "1BC03F3C348372E7"
+					item: "alexscaves:flytrap"
+					type: "item"
+				}
+				{
+					id: "07255EACC6E6AE97"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "4D9F0D61D17628E8"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			subtitle: "растения против зонби в майнкрафт, чзх?"
+			tasks: [{
+				id: "0082C8941CF39325"
+				item: "pvz_zengarden:gardening_table"
+				type: "item"
+			}]
+			title: "Ты за растения или за зонбе?"
+			x: -6.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: [
+				"В сборке есть мод на крыс, это ваши личные маленькие рабы."
+				"Что-бы получить крыс нужно навалить в мусорку блоков, раскидать мусор и приручить крысу сыром, что с ними делать дальше - смотрите в гайдах."
+			]
+			id: "46D294D5533E55B3"
+			rewards: [
+				{
+					id: "0C33E0074B89ABED"
+					item: "rats:rat_nugget"
+					type: "item"
+				}
+				{
+					id: "2CFB67EE90D3801B"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "2B3E5C3257E8957A"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "303A48CCCA19E783"
+					item: "rats:trash_can"
+					type: "item"
+				}
+				{
+					id: "330ABB3647E32D8E"
+					item: "rats:cheese"
+					type: "item"
+				}
+			]
+			title: "Крысы"
+			x: -7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["625F39D8A53C7AD7"]
+			description: [
+				"В сборке иссушитель был заменён на СУЩЕСТВО."
+				"Чтобы призвать СУЩЕСТВО нужно чтобы гаст убил корову."
+				"Господи упокой души тех кто осмелился призвать СУЩЕСТВО."
+				""
+				"Однако не всё так просто, без зачара удачи шанс дропа звезды лишь 50%"
+			]
+			id: "2C2619BAB9111EF1"
+			rewards: [
+				{
+					id: "4DD949F0B1FE8D78"
+					item: "alexsmobs:platypus_bucket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3C8ACCC582A44799"
+					table_id: 897793868117917368L
+					type: "random"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "1541132271D0F1F5"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					entity: "ghastcow:ghast_cow"
+					icon: "minecraft:milk_bucket"
+					id: "6295DC90D1C5F259"
+					title: "Убить гаста корову"
+					type: "kill"
+					value: 1L
+				}
+				{
+					id: "2A35D0DB01BBE0AF"
+					item: "minecraft:nether_star"
+					type: "item"
+				}
+			]
+			title: "Визер?"
+			x: 4.9d
+			y: -2.049999999999999d
+		}
+		{
+			dependencies: ["3C9B243F4593F865"]
+			description: [
+				"В сборке присутствует замена Applied Energistics для ранней игры."
+				"Мод позволяет соединять сундуки, верстаки и прочие NBT блоки в одну сеть по проводам,"
+				"и иметь доступ к ресурсам базы удаленно."
+				""
+				"Подсоедините коннектор инвентарей к сундуку, кабелем присобачьте его к соединятелю хранилищ, а на него налепите терминал. "
+			]
+			id: "70C5FC584A55B11F"
+			rewards: [
+				{
+					id: "75774AA9794DC056"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "670BD737DC54FF24"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "462164B0FB952977"
+					item: "toms_storage:ts.storage_terminal"
+					type: "item"
+				}
+				{
+					id: "2C9EB404F2606F7D"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "5563D5ED76DFB062"
+					item: "toms_storage:ts.inventory_connector"
+					type: "item"
+				}
+				{
+					id: "70652ADFBC96EF44"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+			]
+			title: "МЭ сеть для бомжей"
+			x: 7.9d
+			y: 1.450000000000001d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: ["Редстоуновая ручка позволяет прокладывать редстоун по стенам и потолку, добавляет логические затворы и возможность засунуть несолько линий редстоуна в один блок."]
+			id: "5D2F0E1226922456"
+			rewards: [
+				{
+					count: 16
+					id: "70206666A64A8803"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+				{
+					id: "4AB4405DC8DDD21C"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "75A7880555C6180C"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "2BC77139B1DF1CCC"
+				item: {
+					Count: 1
+					id: "redstonepen:pen"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -6.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: [
+				"Хуки пуджа позволяют очень быстро перемещаться по миру, особенно с апгрейдами."
+				"Можно сделать сапоги прыгуна из портала, чтобы не разьебываться об асфальт при падении."
+			]
+			id: "464F11E7E18B8D3D"
+			rewards: [
+				{
+					id: "0062A94AF192CCB6"
+					item: "minecraft:piston"
+					type: "item"
+				}
+				{
+					id: "496DD71C1CB79D49"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "50D38C139F641EA4"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7A1FFA143679C60F"
+				item: {
+					Count: 1
+					id: "grapplemod:grapplinghook"
+					tag: {
+						Damage: 0
+						custom: {
+							angle: 20.0d
+							attract: 0b
+							attractradius: 3.0d
+							crc32: 2252267022L
+							detachonkeyrelease: 0b
+							doublehook: 0b
+							enderstaff: 0b
+							hookgravity: 1.0d
+							maxlen: 30.0d
+							motor: 0b
+							motoracceleration: 0.2d
+							motordampener: 0b
+							motormaxspeed: 4.0d
+							motorwhencrouching: 0b
+							motorwhennotcrouching: 1b
+							oneropepull: 0b
+							phaserope: 0b
+							playermovementmult: 1.0d
+							pullbackwards: 1b
+							reelin: 1b
+							repel: 0b
+							repelforce: 1.0d
+							rocket: 0b
+							rocket_active_time: 0.5d
+							rocket_force: 1.0d
+							rocket_refuel_ratio: 15.0d
+							rocket_vertical_angle: 0.0d
+							smartdoublemotor: 1b
+							smartmotor: 0b
+							sneakingangle: 10.0d
+							sneakingverticalthrowangle: 0.0d
+							sticky: 0b
+							throwspeed: 2.0d
+							verticalthrowangle: 0.0d
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Хук пуджа"
+			x: -6.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["77D4DEFBE732819A"]
+			id: "758D7432603CB5C2"
+			rewards: [
+				{
+					id: "79BC7865061C3D48"
+					item: "alexscaves:acid_bucket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B2E67051DFD657E"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "7552DCD5D453FC68"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "bonk!"
+			tasks: [{
+				id: "6DD85910213BBCF8"
+				item: {
+					Count: 1
+					id: "thingamabobs:mallet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Колотушка"
+			x: 18.4d
+			y: 0.45000000000000107d
+		}
+		{
+			dependencies: ["720FE1D34A992BBA"]
+			description: [
+				"Сталь можно добыть &mдвумя&r одним способом:"
+				""
+				"Через TFMG:"
+				"Построить коксовые печи и стальные печи"
+				"Объективно более интересный вариант."
+				"true ending"
+			]
+			icon: "thermal:steel_ingot"
+			id: "7466AD7823903057"
+			rewards: [
+				{
+					id: "4D35ECA2278C94D2"
+					table_id: 897793868117917368L
+					title: "Cave tablet"
+					type: "random"
+				}
+				{
+					count: 6
+					id: "6AB95F46F5E0B2FC"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					id: "6B9306512B56DC1A"
+					item: {
+						Count: 1
+						id: "supplementaries:flute"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "27A29F2E6A5D49CA"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3D01CB9C64296CEE"
+					item: "thermal:steel_ingot"
+					type: "item"
+				}
+				{
+					id: "7CBFE369A7DEC02B"
+					item: "tfmg:blast_furnace_output"
+					type: "item"
+				}
+			]
+			title: "Стальной век"
+			x: 7.9d
+			y: -8.049999999999999d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: [
+				"Андезит - голова всех устройств из Create, желательно обзавестись как можно большим количеством данного предмета."
+				""
+				"Кстати через миксер можно получать дважды более андезитового сплава."
+				""
+				"И не забывайте смотреть пондеры! (зажать \"W\" на предмет)"
+			]
+			id: "7DCB1F7D07289673"
+			rewards: [
+				{
+					id: "3450F55E5C250B1E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "711244C3E707610B"
+					item: "jigsaw_pp:ponos_bucket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1DCB9F9A4F7F1804"
+					table_id: 897793868117917368L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "6943E94B9697ABC4"
+				item: "create:andesite_alloy"
+				type: "item"
+			}]
+			title: "Андезитовый век"
+			x: 1.9000000000000004d
+			y: -3.049999999999999d
+		}
+		{
+			dependencies: ["625F39D8A53C7AD7"]
+			icon: "create:brass_ingot"
+			id: "720FE1D34A992BBA"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0454C3CF15F2BB9E"
+					table_id: 897793868117917368L
+					type: "random"
+				}
+				{
+					id: "038798AE76DAB8D0"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "34327CA5CA823F8B"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			subtitle: "Мюллер, а давайте закажем ДЕДУШЕК..."
+			tasks: [
+				{
+					id: "1017C84824772612"
+					item: "create:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "76B010C10CECD8CC"
+					item: "create:electron_tube"
+					type: "item"
+				}
+			]
+			title: "Латунный век"
+			x: 7.9d
+			y: -3.049999999999999d
+		}
+		{
+			dependencies: [
+				"7DCB1F7D07289673"
+				"003D17FFC9BADD30"
+			]
+			description: ["(не)точный механизм - костыль сборки чтобы создать искусственный кризис энергии на сервере и греггифицировать крафты."]
+			id: "4A5B2D0E8F1CCA12"
+			rewards: [
+				{
+					id: "141AD9E2B4B420F3"
+					item: "jigsaw_pp:useless_pie"
+					type: "item"
+				}
+				{
+					id: "3740AE169D6CDF46"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "08E3D9820AE396C8"
+					table_id: 897793868117917368L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "2E26D6C4A16D7FB1"
+				item: "kubejs:imprecision_mechanism"
+				type: "item"
+			}]
+			title: "Генерация энергии"
+			x: 1.9000000000000004d
+			y: -0.5499999999999989d
+		}
+		{
+			dependencies: ["4A5B2D0E8F1CCA12"]
+			id: "39144293F10CD147"
+			rewards: [
+				{
+					id: "439F9A6E56717CD6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "6C75FEF7ADEAD9A8"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4A13FC77B6A59610"
+				item: "create:water_wheel"
+				type: "item"
+			}]
+			title: "Водяные колеса"
+			x: 1.4000000000000004d
+			y: 1.950000000000001d
+		}
+		{
+			dependencies: ["4A5B2D0E8F1CCA12"]
+			description: ["Наставьте на подшипник шерсти либо паруса(они в два раза эффективнее) и нажмите на подшипник, ветряная энергия!"]
+			id: "3707494D5E2746DC"
+			rewards: [
+				{
+					id: "5707849CF4B843C3"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "48B9D6509D4CF723"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "19D891CDD59E478F"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "48BF0806C2CE82E4"
+					item: "create:white_sail"
+					type: "item"
+				}
+			]
+			title: "Вентиляторы"
+			x: 0.40000000000000036d
+			y: 1.450000000000001d
+		}
+		{
+			dependencies: ["7DCB1F7D07289673"]
+			description: [
+				"Create - Основной мод на сервере, на нем завязано ВСЁ, от перемещения предметов на конвейерах и поездах до подпитки ядерных реакторов медными трубами."
+				""
+				"За место FE/RF энергии в этом моде используется кинетическая энергия, передаваемая шестеренками и ремнями, к ней применимы базовые законы механики и например вы можете увеличить/уменьшить скорость вала поставив маленькую шестеренку к большой."
+			]
+			id: "64D93F6BBA7D18A4"
+			rewards: [
+				{
+					id: "3F2D509F27BC4C0E"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "799B78C01F59C91F"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "7D54CA4C5C5BD366"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "0AC6B14004D18DC9"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "1120DB9DF5AD5405"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "5F892B21E2802454"
+					item: "create:shaft"
+					type: "item"
+				}
+			]
+			title: "Передача энергии"
+			x: -0.09999999999999964d
+			y: -3.549999999999999d
+		}
+		{
+			dependencies: ["7DCB1F7D07289673"]
+			description: ["Перемещение жидкостей в этой сборке происходит только через трубы из креате, если вы найдете другой способ пните бобра, он это вырежет нахер."]
+			id: "187E2B0A91B9A97F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "00F043396AFF1299"
+					table_id: 897793868117917368L
+					type: "random"
+				}
+				{
+					id: "0753D23C3CA70932"
+					type: "xp"
+					xp: 1488
+				}
+			]
+			tasks: [
+				{
+					id: "277DCAECF729FB95"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "3C4FF3B7616593A2"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "6B1EE16E423C5F93"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			title: "Жижи"
+			x: 2.9000000000000004d
+			y: -5.549999999999999d
+		}
+		{
+			dependencies: ["7DCB1F7D07289673"]
+			description: [
+				"Create позволяет делать движущиеся постройки."
+				"Производится это многими блоками, мельницами, лифтами, подшипниками, лебедками, вагонетками."
+				"Благодаря этому, особенно в паре с компьютерами можно строить невероятные конструкции, самыми полезными из которых являются автофермы и полу/автоматические буры."
+				""
+				"Кстати блоки бура из Create DreamsnDesires тоже работает как бур."
+			]
+			id: "4E9DD32BC13EC422"
+			rewards: [
+				{
+					id: "194EE2EB0EB37BCE"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "1E20319A7A30B912"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "31DB3A3C5CAE36DC"
+					item: "create:mechanical_piston"
+					type: "item"
+				}
+				{
+					id: "10EC88081A239C36"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					id: "07806131DFBEAC41"
+					item: "create:rope_pulley"
+					type: "item"
+				}
+			]
+			title: "Скрап механик"
+			x: 0.40000000000000036d
+			y: -4.549999999999999d
+		}
+		{
+			dependencies: ["7DCB1F7D07289673"]
+			description: [
+				"Это важные инструменты для креатовцев."
+				""
+				"Разводным ключом можно настраивать устройства из Create, тыканьем или колесиком мыши."
+				""
+				"Очки инженера позволяют смотреть статистику устройств, почему они не работают, их заполненность и т.д."
+			]
+			id: "65D24B49198D35F9"
+			rewards: [
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "0F61B415123B7758"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "65714A39121D772A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "0F5F9586446DDE04"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "1C244884438D8E0C"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			title: "Ключ"
+			x: 3.9000000000000004d
+			y: -3.549999999999999d
+		}
+		{
+			dependencies: ["7466AD7823903057"]
+			description: [
+				"В сборке RF/FE энергия передается по проводам из The Factory Must Grow. (однако для особо мощных девайсов можно использовать из меканизма.)"
+				"Генерировать же энергию можно либо на одноблочном генераторе либо на мультиблоке из ротора и статора."
+				""
+				"Стоит учесть. что тут есть напряжение, ток и сопротивление."
+				""
+				"Кстати, если в вас вдруг материализуется вентилятор это нормально, ждем хотфикса тфмг."
+			]
+			id: "365AB8AF74912E6B"
+			rewards: [
+				{
+					id: "5BCD34A4BFF42ABD"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "0EC12F07DE59012E"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7A710514B0A336B1"
+					item: "tfmg:cable_connector"
+					type: "item"
+				}
+				{
+					id: "014D180D6CA69F63"
+					item: "tfmg:copper_cable"
+					type: "item"
+				}
+				{
+					id: "1768B86965266659"
+					item: "tfmg:generator"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "59C61F6DB7D7AAB8"
+					item: "tfmg:rotor"
+					optional_task: true
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "26C51AA0FB4CF86B"
+					item: { Count: 8, id: "tfmg:stator" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Про энергию"
+			x: 6.4d
+			y: -9.049999999999999d
+		}
+		{
+			dependencies: ["720FE1D34A992BBA"]
+			description: ["Вот и кончаются шуточки, с приобретением точного механизма вам открыты тыкалки, а с ними и дороги во все стороны (все ведут нахуй), с тыкалками можно автоматизировать дерево, сделать продвинутые буровые установки, и продолжать прогрессию."]
+			id: "3C9B243F4593F865"
+			rewards: [
+				{
+					count: 4
+					id: "35876222FA133843"
+					item: "sophisticatedstorage:iron_to_diamond_tier_upgrade"
+					type: "item"
+				}
+				{
+					id: "60BA956CEA0F9A50"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6AA883599D71F960"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "045668D45EFD5D36"
+					table_id: 897793868117917368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7B88F2BD99C8C2B9"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "Точный механизм"
+			x: 7.9d
+			y: -0.5499999999999989d
+		}
+		{
+			dependencies: [
+				"3C9B243F4593F865"
+				"2A33BCCEE59ECCD7"
+			]
+			description: [
+				"**ВАЖНО!!! если бойлер достигнет больше 70 тысяч SU он рванет от давления, это около 4 обычных горелок и около 2 перегретых."
+				""
+				"Первый по истине мощный генератор, которым можно запитать целые фабрики, не рекомендую делать огромные батареи из него на будущее, потому что в будущем будет нефть и ядерные реакторы."
+				""
+				""
+				"Но есть нюанс, на сервере отключены бесконечные источники воды."
+			]
+			id: "3AE5E605C9554456"
+			rewards: [
+				{
+					id: "763DC7281AAE0FED"
+					item: "magistuarmory:horse_decoration"
+					type: "item"
+				}
+				{
+					count: 1488
+					id: "4C46B1E2594A503A"
+					item: "minecraft:stick"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5F5F58D8F0004692"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 6L
+					id: "7D2297A2CE3E4F48"
+					item: "create:steam_engine"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "250964303D0555DC"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					count: 16L
+					id: "2AF3483053E3EC60"
+					item: "create:fluid_tank"
+					type: "item"
+				}
+			]
+			title: "Стимпанк"
+			x: 6.9d
+			y: 0.9500000000000011d
+		}
+		{
+			dependencies: ["3C9B243F4593F865"]
+			description: ["Симулирует нажатие игрока, работает на двигающихся постройках, имеет фильтр, при нажатии ключом начинает бить с выпадением опыта."]
+			id: "2167202FA583218C"
+			rewards: [
+				{
+					id: "1296C72E26F5D379"
+					item: "minecraft:rose_bush"
+					type: "item"
+				}
+				{
+					id: "1A7DA4E3BC5C667B"
+					item: "create_enchantment_industry:ink_bucket"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D08E24F1F0854CB"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "43283E963B90A400"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "Тыкалки"
+			x: 8.9d
+			y: 0.9500000000000011d
+		}
+		{
+			dependencies: ["7466AD7823903057"]
+			description: [
+				"Теперь войнушки за ресурсы будут намного веселее!"
+				""
+				"В сборке присутствует несколько паков оружий, в том числе киберпанк, дум и че та еще."
+			]
+			icon: "pointblank:glock17"
+			id: "683DE9F40C7CB995"
+			rewards: [
+				{
+					count: 16
+					id: "31225F3282E7AABD"
+					item: "minecraft:gunpowder"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4EA9BC397CC0B73C"
+					table_id: 897793868117917368L
+					type: "random"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "7F5C6107F0D6CEAE"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "19E04FD1D42A56DC"
+					item: "pointblank:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					id: "2A3640BA7F32F69F"
+					item: "pointblank:printer"
+					type: "item"
+				}
+			]
+			title: "Огнестрел"
+			x: 6.4d
+			y: -7.049999999999999d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: [
+				"Джигсав на 1.20!"
+				""
+				"Центр мода - боброжмыховые орешки, чтобы добыть их семена нужно их раскусить."
+				"Боброжмых встречается в верхнем мире, легко найти по мухам во время периода цветения."
+				""
+				"В моде очень много всякой всячины которую вставлять в туториал не имеет смысла, посмотрите сами в джеи что тут есть."
+			]
+			icon: {
+				Count: 1
+				id: "jigsaw_pp:beaweed_nut"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "003D17FFC9BADD30"
+			rewards: [
+				{
+					id: "15504010E54E952E"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "56466B83A92E9D59"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 1.5d
+			tasks: [
+				{
+					id: "727B784AE7A05833"
+					item: {
+						Count: 1
+						id: "jigsaw_pp:beaweed_nut"
+						tag: {
+							Damage: 0
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5398DF59895A4BA8"
+					title: "Понятно"
+					type: "checkmark"
+				}
+			]
+			title: "Каловый век"
+			x: -3.5523809523809504d
+			y: -0.014285714285684037d
+		}
+		{
+			dependencies: ["720FE1D34A992BBA"]
+			description: [
+				"В сборке присутствует реалистичная химия."
+				""
+				"В этом моде можно варить МЕФ, самогон, кучу видов пластика, новые взрывчатки, и прочую поебень, но это только если вы вывезёте реалистичную органическую химию..."
+				""
+				"Если вкратце:"
+				""
+				"Все реакции протекают в мультиблоке реакционной камеры, подробнее в пондере."
+				"Баббл кап = самогонник, в нем перегоняется рассол, моча и самогон."
+				"В центрифуге микстура разделяется по веществам, тяжелое отправляется вниз, а легкое вбоок."
+				"Стреевый холодильник нужен для большинства крафтов, заправляется любым хладагентом (самый легкий - аммиак)"
+				"Динамомашина нужна для электролиза."
+				""
+				""
+				"Кстати, большинство химикатов в моде получить можно но некоторые крафты в джеи не показываются, просто используйте рецепт из реальной жизни."
+			]
+			id: "65836C279FBC4637"
+			rewards: [
+				{
+					id: "6AC2925AA4B2ADD7"
+					item: {
+						Count: 1
+						id: "destroy:baby_blue_powder"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57B6EF0DD19A75F5"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			subtitle: "Сидел ванька на заборе, мочил письку в ацетоне..."
+			tasks: [
+				{
+					id: "08ADC9BBC65DB74E"
+					item: {
+						Count: 1
+						id: "destroy:vat_controller"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "362B30FD9B92256C"
+					item: {
+						Count: 1
+						id: "destroy:centrifuge"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "163D08EECD8F6264"
+					item: {
+						Count: 1
+						id: "destroy:bubble_cap"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "433ABC0A18994E39"
+					item: {
+						Count: 1
+						id: "destroy:cooler"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "04C75235DEB22D8A"
+					item: {
+						Count: 1
+						id: "destroy:dynamo"
+						tag: { }
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Химия"
+			x: 14.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7DCB1F7D07289673"]
+			description: [
+				"Запихнутый в горелку ифрит - главный источник тепла для сплава металлов, химии, варки супов и зелий."
+				""
+				"Логично, что для продолжения прогрессии нужен открытый ад на сервере, а пока он не открыт просто кайфуйте, занимайтесь сельским хозяйством, варите пиво и пурген."
+			]
+			id: "625F39D8A53C7AD7"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "166A4112F2E615EA"
+					table_id: 897793868117917368L
+					type: "random"
+				}
+				{
+					id: "6926B6F1E9C09545"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "12A11424FD0DE07F"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4770991AC9A59847"
+				item: "create:blaze_burner"
+				type: "item"
+			}]
+			title: "Незер"
+			x: 5.9d
+			y: -3.049999999999999d
+		}
+		{
+			dependencies: ["7466AD7823903057"]
+			description: [
+				"В сборке присутствует 4 сорта нефти из разных модов, нефть можно трансмутировать в миксере между сортами."
+				""
+				"TheFactoryMustGrow:"
+				"Лучшая по проработке нефть."
+				"Нефть находится специальным блоком-поисковиком, откачивается мультиблочными нефтекачками и может использоваться как в нефтехимии так и в производстве топлива."
+				""
+				"PneumaticCraft:"
+				"Можно добыть ведром с поверхности, или из под зесли используя сейсмический вибратор но по сравнению с жилами других модов ее катастрофически мало."
+				"Можно использовать в нефтехимии, а еще топливом из нее можно перегревать блейзовые горелки."
+				""
+				"Destroy:"
+				"Нефть для нефтехимии, &mдобывается&r перегоняется из другой нефти."
+				""
+				"Как вариант можно добывать только один тип нефти, и перегонять его в другие сорта по мере необходимости"
+			]
+			icon: "thermal:crude_oil_bucket"
+			id: "6900EBDD3EE03D36"
+			rewards: [
+				{
+					id: "6EA372AFCEAA1137"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5C5D0BA4DBCA3CA2"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				id: "287E07718616F505"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:buckets/crude_oil"
+					}
+				}
+				title: "Any #forge:buckets/crude_oil"
+				type: "item"
+			}]
+			title: "Нефть"
+			x: 10.4d
+			y: -8.049999999999999d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: [
+				"В сборке есть ботания, это очень интересный мод на магию, очень рекомендую его пройти."
+				""
+				"Долго обьяснять про него, могу лишь сказать что гайю можно вылечить \"ЛЕКАРСТВОМ\""
+			]
+			id: "11DA438C80F280E4"
+			rewards: [
+				{
+					id: "2BF9D8058A94B1E6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "4A96C1C515674A77"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "05A11C2A1A934B83"
+				item: "botania:lexicon"
+				type: "item"
+			}]
+			title: "Ботания"
+			x: -7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["003D17FFC9BADD30"]
+			description: [
+				"Важный аспект сборки - СЛАБИТЕЛЬНОЕ"
+				""
+				"Оно производится на пургеновом заводе, его надо нагреть теплообменником(нагревателем),"
+				"а под теплообменник поставить любой источник тепла (горячее > лучше)"
+				""
+				"Пурген можно сделать из всякой мерзопакостной херни, смотреть в крафтах."
+				""
+				"Пурген имеет качество, чем лучше вы его сварите тем меньше шанс что лекарство вас убьет, и больше шанса что вы получите приколюхи."
+				""
+				"Пурген делится на 3 тира: Обычный, адский(можно использовать в аду без последствий), кристально чистый и ЯДЕРНЫЙ."
+				""
+				"К пургену можно подмешивать добавки, алмазы яйца и прочие, каждый катализатор имеет свои плюсы и минусы."
+				""
+				"В процессе синтеза бактерии в боброжмыхе потребляют много калорий, чем более качественную еду вы положите в завод тем лучше будет ПРОДУКТ."
+				""
+				"Для синтеза ядерного пургена нужен ядерный катализатор, он используется только в крафтах и ничем не отличается от обычного"
+			]
+			id: "22636C77BE1F4AD2"
+			rewards: [
+				{
+					id: "21F26E42AE096085"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79E1112E89EDFF29"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			subtitle: "Лекарство от кашля"
+			tasks: [
+				{
+					id: "33FD427D370562CE"
+					item: "jigsaw_pp:purgen_factory"
+					type: "item"
+				}
+				{
+					id: "5ADE4CBF694B223C"
+					item: "jigsaw_pp:factory_heater"
+					type: "item"
+				}
+			]
+			title: "Завод слабительного"
+			x: -3.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["22636C77BE1F4AD2"]
+			description: ["Вместо того чтобы заставлять пациентов съесть лекарство можно просто запульнуть таблетку им в глотку, не так ли?"]
+			id: "59DBBB4481DA517F"
+			rewards: [
+				{
+					count: 2
+					id: "48393D69B5CD965A"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					id: "76CD48B1D9DCEAB5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5971CFE890923760"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "2B1D192FE0DC4882"
+					item: {
+						Count: 1
+						id: "jigsaw_pp:purgen_gun"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7C29CB5CD4B456ED"
+					item: "jigsaw_pp:purgen_bundle"
+					type: "item"
+				}
+			]
+			title: "Пурген-пушка"
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["59DBBB4481DA517F"]
+			description: ["Для лечения целой толпы пациентов, невероятно опасное оружие в умелых руках."]
+			id: "6F62BBD845DAD71F"
+			rewards: [
+				{
+					id: "12D9035FCA951306"
+					item: {
+						Count: 1
+						id: "piglet_structures:diamond_phantom_smasher"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "501A4B682694844D"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "64A124C385DF7823"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6B97C4F5813F49DD"
+				item: {
+					Count: 1
+					id: "jigsaw_pp:purgen_machine_gun"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Пурген-миниган"
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["22636C77BE1F4AD2"]
+			id: "43F10C457BAB7E46"
+			rewards: [
+				{
+					id: "7A0F351E1513B394"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "5420C2A16B2C6051"
+					item: {
+						Count: 1
+						id: "selfexpression:professor_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E1EE84CC6643289"
+					item: {
+						Count: 1
+						id: "selfexpression:professor_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "317AA312328AD691"
+					item: {
+						Count: 1
+						id: "selfexpression:professor_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "68D625277DF9B254"
+					item: {
+						Count: 1
+						id: "selfexpression:aremeh_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "59704EBEA66D44AD"
+					item: "chancecubes:chance_cube"
+					type: "item"
+				}
+				{
+					command: "/effect give @p jigsaw_pp:purgative"
+					icon: "jigsaw_pp:ponos_bucket"
+					id: "7729775CF1EE0793"
+					title: "Понос"
+					type: "command"
+				}
+				{
+					id: "34CDE2B9FEAA574F"
+					item: "pneumaticcraft:pcb_blueprint"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5458C5301D876996"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			subtitle: "Сварить пурген с чистотой выше 95%"
+			tasks: [{
+				id: "58F23DD666856400"
+				item: {
+					Count: 1
+					id: "jigsaw_pp:crystal_purgen_pilule"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Джесси, мы будем варить ПУРГЕН"
+			x: -2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: [
+				"Мод на машинки."
+				""
+				"Они очень плохо работают на бездорожье, лучше сразу делайте дороги."
+				""
+				"Чтобы собрать машину соберите на блоке собирателе корпус колеса и двигатель, потом на собирателе машин поставьте эьто всё."
+				""
+				"А еще можно трактора делать."
+			]
+			id: "17E0B3DA507CE175"
+			rewards: [
+				{
+					id: "5DE42DB19557A954"
+					item: {
+						Count: 1
+						id: "magistuarmory:pantyhose"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "2112068F07052E9F"
+					item: "jigsaw_pp:sweet_bread"
+					type: "item"
+				}
+				{
+					id: "1C6E7CD415214531"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "61E9C5F42931DF73"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "591CF4D73CCE5B1F"
+					item: "automobility:auto_mechanic_table"
+					type: "item"
+				}
+				{
+					id: "2E00CDD9C9EA2B96"
+					item: "automobility:automobile_assembler"
+					type: "item"
+				}
+				{
+					id: "7CC83DDE0B789AE6"
+					item: "automobility:crowbar"
+					type: "item"
+				}
+			]
+			title: "Машинки"
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"7E14E4E68ABECA7E"
+				"76944DACF322D17E"
+				"49EE8ABED945F9A6"
+				"00B3EFCB93AB00AD"
+			]
+			description: ["Вполне возможно что для получения столь могущественного реликта вам придется с кем-то объеденится в создании..."]
+			id: "1048590A5C1B6564"
+			rewards: [
+				{
+					count: 3
+					id: "7A85F3AD52EA9B07"
+					item: "chancecubes:compact_giant_chance_cube"
+					type: "item"
+				}
+				{
+					id: "7E8844F12F0D3979"
+					type: "xp_levels"
+					xp_levels: 69
+				}
+				{
+					exclude_from_claim_all: true
+					id: "608F62367A980B32"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			shape: "heart"
+			size: 2.0d
+			subtitle: "Вы достигли цели сборки (или нет?)"
+			tasks: [{
+				id: "1BCEBC788B843C06"
+				item: "placeablemaxwell:maxwell"
+				type: "item"
+			}]
+			title: "Конец?"
+			x: 23.4d
+			y: -4.049999999999999d
+		}
+		{
+			dependencies: ["1048590A5C1B6564"]
+			description: [
+				"W.I.P."
+				""
+				"Мы не успели доделать конец сборки, но уверены что у нас есть достаточно времени для доработки механики Плюка, надо только подождать!"
+			]
+			id: "5B21A7EE8EF35D1F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4BA6C30B4CB88135"
+					table_id: 701200256636078107L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26B5B42D41B7AF3B"
+					table_id: 701200256636078107L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3F791AA142733369"
+					table_id: 701200256636078107L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45C49F020609AEBA"
+					table_id: 701200256636078107L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "076531DE232F5F48"
+					table_id: 701200256636078107L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "094307E7E4E98C8F"
+					table_id: 701200256636078107L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5904F06CD4055D6E"
+					table_id: 701200256636078107L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "605FCD52570F150F"
+					table_id: 701200256636078107L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [{
+				id: "21CBCED32EF6B0DA"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "Конец!"
+			x: 33.1d
+			y: -3.799999999999999d
+		}
+		{
+			dependencies: ["1048590A5C1B6564"]
+			id: "6280335848867357"
+			rewards: [
+				{
+					id: "4DBEF5634408AFE2"
+					item: "minecraft:poppy"
+					title: "Если игрок продержится с наградой 27 часов то админы выдадут ему ПРИЗ."
+					type: "item"
+				}
+				{
+					command: "/effect give @p jigsaw_pp:purgative 99999 1"
+					icon: "jigsaw_pp:ponos_bucket"
+					id: "3B3FC49A83E7B7BF"
+					title: "Понос"
+					type: "command"
+				}
+			]
+			subtitle: "Сделать гейскую броню лайма"
+			tasks: [
+				{
+					id: "176935885519B926"
+					item: "mekanism:mekasuit_helmet"
+					type: "item"
+				}
+				{
+					id: "6A2374CEE3AEED6E"
+					item: "mekanism:mekasuit_bodyarmor"
+					type: "item"
+				}
+				{
+					id: "5440C3FC5A29DAA2"
+					item: "mekanism:mekasuit_pants"
+					type: "item"
+				}
+				{
+					id: "7AF7C6B6B7304790"
+					item: "mekanism:mekasuit_boots"
+					type: "item"
+				}
+				{
+					id: "253DE744D93FA93B"
+					item: "mekanism:meka_tool"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Mekasuit"
+			x: 23.4d
+			y: -2.549999999999999d
+		}
+		{
+			dependencies: ["6900EBDD3EE03D36"]
+			description: [
+				""
+				""
+				"В сборке есть несколько типов пластика, производите какой хотите: HDPE, пластик из тфмг и пневматикрафта, но я лично рекомендую попробовать сделать пластик из Destroy, если яйца велики."
+				""
+				"Из пластика можно делать заменители природных ресурсов вроде кожи, бумаги и ниток."
+			]
+			id: "377B9211773978C1"
+			rewards: [
+				{
+					id: "513E530E33EC891A"
+					item: {
+						Count: 1
+						id: "minecraft:splash_potion"
+						tag: {
+							Potion: "mutantmonsters:chemical_x"
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D6F48E83526EC1A"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [{
+				id: "5A0C8B5BD7A4FE72"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "forge:ingots/plastic"
+					}
+				}
+				title: "Any #forge:ingots/plastic"
+				type: "item"
+			}]
+			title: "Пластмассовый мир победил..."
+			x: 10.4d
+			y: -5.549999999999999d
+		}
+		{
+			dependencies: [
+				"187E2B0A91B9A97F"
+				"0AC4CE8AA130F3F4"
+			]
+			description: [
+				"Новый мод на пиво!"
+				""
+				"Кстати, про автоматизацию дрожжей: короче можно автоматизировать либо через пневматикрафт + create, либо через ленина из джигсава(с него плесень слезает). Ну или если вы свиной туфяк можете построить ферму грибов."
+			]
+			id: "39393D4E402A1C7B"
+			rewards: [
+				{
+					count: 6
+					id: "060883D793A21852"
+					item: "farmersdelight:cooked_salmon_slice"
+					type: "item"
+				}
+				{
+					count: 5
+					id: "37CA6B15577E0C64"
+					item: "pneumaticcraft:chips"
+					type: "item"
+				}
+				{
+					id: "08B2B93309BDF80F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "793D81D2D14BA447"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "182279C72B2FBDDB"
+					item: {
+						Count: 1
+						id: "destroy:undistilled_moonshine_bottle"
+						tag: { }
+					}
+					type: "item"
+				}
+				{
+					id: "5CC066438B2ADE9A"
+					item: {
+						Count: 1
+						id: "destroy:aging_barrel"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			title: "Пивас"
+			x: 1.9000000000000004d
+			y: -7.549999999999999d
+		}
+		{
+			dependencies: ["7DCB1F7D07289673"]
+			description: ["Один из самых важных механизмов в Create, перемалывает предметы засунутые сверху принимая энергию снизу и сбоку."]
+			id: "0AC4CE8AA130F3F4"
+			rewards: [
+				{
+					id: "2EEB08307D97E483"
+					item: "minecraft:bread"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "745642766CD6EEED"
+					table_id: 897793868117917368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4C8545F007732A13"
+				item: "create:millstone"
+				type: "item"
+			}]
+			title: "Мельницы"
+			x: 0.9000000000000004d
+			y: -5.549999999999999d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: [
+				"Пневматикрафт - еще один интересный мод, за место энергии в нем - давление."
+				""
+				"Подробнее в книжке."
+				""
+				"honorable mention: "
+				"Так как в сборке всячески притесняются жители, амадрон планшет был вырезан нахуй, а программам добавлен крафт."
+			]
+			hide_dependency_lines: true
+			id: "77D4DEFBE732819A"
+			rewards: [
+				{
+					count: 4
+					id: "0E102FF26C67355F"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:gun_ammo"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1C4A883BC5731269"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "58E21FB3F9384835"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "703F8EEA8323C022"
+				item: {
+					Count: 1
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "pneumaticcraft:book"
+					}
+				}
+				type: "item"
+			}]
+			title: "Пневматика"
+			x: 17.4d
+			y: -0.5499999999999989d
+		}
+		{
+			dependencies: ["49BC297BEDB5140C"]
+			description: [
+				"ну жителей же нет, поэтому добавлен крафт"
+				""
+				"эти схемы позволяют крафтить платы и солнечные батареи более легким, автоматическим способом."
+			]
+			id: "693701C88AB7F2C4"
+			rewards: [
+				{
+					id: "44FDD67D0C6943B5"
+					type: "xp"
+					xp: 56
+				}
+				{
+					count: 4
+					id: "3A068309582C7CF8"
+					item: "thingamabobs:explosive_pumpkin_pie"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B727CA7802A7102"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "40B31ED2B1E5CA52"
+					item: "pneumaticcraft:assembly_program_drill_laser"
+					type: "item"
+				}
+				{
+					id: "46CC3576EA0B66DD"
+					item: "pneumaticcraft:assembly_program_laser"
+					type: "item"
+				}
+			]
+			title: "абас"
+			x: 12.9d
+			y: -0.5499999999999989d
+		}
+		{
+			dependencies: [
+				"377B9211773978C1"
+				"77D4DEFBE732819A"
+				"1EB258FAF3F0C001"
+			]
+			description: [
+				"Получить платы можно несколькими способами, однако для второго нужны эти самые платы."
+				""
+				"Ну короче способ для ранней игры:"
+				"сделайте пустые платы, проявите их в ультрафиолетовой ванне, потом замочите в соляной (проявительной) кислоте и приделайте конденсаторы с транзисторами."
+				""
+				"Если вы завершили этот квест можете считать себя ♂Dungeon Master♂."
+				""
+				""
+				"кстати чертеж получается либо от жителя либо с квеста за чистейший пурген."
+			]
+			icon: "pneumaticcraft:printed_circuit_board"
+			id: "49BC297BEDB5140C"
+			rewards: [
+				{
+					id: "748D156F1E544122"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					id: "262282A635FD7DAC"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					id: "3E96F3194E886314"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "7BCB0A0E3CDE293C"
+					item: "piglet_structures:huge_crafting_table"
+					type: "item"
+				}
+				{
+					id: "73D4DB5325C86FEE"
+					item: {
+						Count: 1
+						id: "destroy:nitrocellulose_block"
+						tag: { }
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5700E2F06F3B9574"
+					item: "pneumaticcraft:printed_circuit_board"
+					type: "item"
+				}
+				{
+					id: "3D1809A65CB28320"
+					item: "pneumaticcraft:uv_light_box"
+					type: "item"
+				}
+			]
+			title: "Век микроэлектроники"
+			x: 12.9d
+			y: -3.049999999999999d
+		}
+		{
+			dependencies: ["49BC297BEDB5140C"]
+			description: ["Zoe isn't cyberpunk - Довольно плохой мод на киберпротезы, сделан на мкреаторе и интеграций JEI тут нет, в моде так насрано что не буду расписывать, смотрите гайды на ютубе"]
+			id: "02E32FE4E174540E"
+			rewards: [
+				{
+					id: "110CB10F1206EDE6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "2DE2431BCEC90811"
+					item: {
+						Count: 1
+						id: "selfexpression:redynines_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "058E868E9052507D"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "350AD6352B4A89F9"
+				item: "zoe:biostation"
+				type: "item"
+			}]
+			title: "Киберпранк"
+			x: 13.9d
+			y: -0.5499999999999989d
+		}
+		{
+			dependencies: [
+				"4E9DD32BC13EC422"
+				"720FE1D34A992BBA"
+			]
+			description: ["Вечный двигатель, идеален для шагоходов, но не может запитывать заводы."]
+			id: "2C72220B98A875FB"
+			rewards: [
+				{
+					id: "07BC273477F6E623"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "176B851B9C15139E"
+					table_id: 701200256636078107L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "2E43E8B332020D49"
+				item: "create_dd:kinetic_motor"
+				type: "item"
+			}]
+			title: "Кинетичческий мотор"
+			x: -0.5999999999999996d
+			y: -5.049999999999999d
+		}
+		{
+			dependencies: [
+				"187E2B0A91B9A97F"
+				"720FE1D34A992BBA"
+			]
+			description: ["Трубы с фильтрами, нажмите ведром с той жидкостью которую хотите отфильтровать от других."]
+			id: "40C7721AEAE9557F"
+			rewards: [
+				{
+					id: "184D5266DBBCA542"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "36EE8DE02A573969"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6043164899488E90"
+					table_id: 897793868117917368L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "6BF539EB14FED295"
+				item: "create:smart_fluid_pipe"
+				type: "item"
+			}]
+			title: "Умные трубы"
+			x: 3.9000000000000004d
+			y: -6.049999999999999d
+		}
+		{
+			dependencies: [
+				"0AC4CE8AA130F3F4"
+				"720FE1D34A992BBA"
+			]
+			description: ["Дробильные колеса, не суйте туда хуй!"]
+			id: "5352457277A0651A"
+			rewards: [
+				{
+					id: "66C8335328A394E7"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "429FC36E50813056"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				count: 2L
+				id: "5ECBDB9C2715C087"
+				item: { Count: 2, id: "create:crushing_wheel" }
+				type: "item"
+			}]
+			title: "Дробилки"
+			x: -0.09999999999999964d
+			y: -6.049999999999999d
+		}
+		{
+			dependencies: [
+				"39393D4E402A1C7B"
+				"625F39D8A53C7AD7"
+			]
+			description: [
+				"Прогнав в самогонном аппарате брагу, можно сделать самогон!"
+				""
+				"По сути, более крепкое пиво, однако из него можно получить спирт для химии."
+			]
+			id: "3C3CB92FBB499494"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "09BC7BCA08770E31"
+					table_id: 897793868117917368L
+					type: "random"
+				}
+				{
+					id: "78A9AB54F952BE2F"
+					item: {
+						Count: 1
+						id: "selfexpression:russian_cap_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "6023C241E23BF3C1"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "70917DBE1E530439"
+				item: {
+					Count: 1
+					id: "destroy:thrice_distilled_moonshine_bottle"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Самогон"
+			x: 0.40000000000000036d
+			y: -7.049999999999999d
+		}
+		{
+			dependencies: ["7DCB1F7D07289673"]
+			description: ["Позоляют удобнее перемещать предметы с/на конвейеры."]
+			id: "7670CA3D9C081ACB"
+			rewards: [
+				{
+					count: 4
+					id: "12353D99A905C7DF"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "544EECEE4310CC82"
+					item: "create:andesite_tunnel"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "382656EB0EAEB3D2"
+					table_id: 701200256636078107L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "3C9ACF41AA942C97"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "2629F39C858EA498"
+					item: "create:chute"
+					type: "item"
+				}
+			]
+			title: "Воронки"
+			x: 3.4000000000000004d
+			y: -4.549999999999999d
+		}
+		{
+			dependencies: ["65D24B49198D35F9"]
+			description: ["Оружие кринженеров, как патроны юзает любые овощи."]
+			id: "20F8F920F46CED75"
+			rewards: [
+				{
+					count: 16
+					id: "1EFF5BF1F38D2AC6"
+					item: "minecraft:golden_carrot"
+					type: "item"
+				}
+				{
+					id: "7DAE668F56BA235F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "7CC78927C1AC2BE3"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "7BBD36306EA441F4"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Картофельная пушка"
+			x: 4.9d
+			y: -4.049999999999999d
+		}
+		{
+			dependencies: ["3C9B243F4593F865"]
+			description: [
+				"Поезда как в факторио, перевозят ресурсы, жижи и пассажиров."
+				""
+				"Механики слишком сложны, смотрите гайды и пондеры."
+				""
+				"Кстати теперь они требуют топливо: понос, пар, лаву, дизель, нафту или уголь, можете предложить сделать какую-нибудь жижу топливом, пинайте для этого бобра."
+			]
+			id: "3F5F0BC2B603AC8B"
+			rewards: [
+				{
+					id: "68F34BFAEC8A8165"
+					item: "railways:red_conductor_cap"
+					type: "item"
+				}
+				{
+					id: "0E4260DBA5A1C864"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "57DEC87603588969"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "12B7BE5A1272BD1D"
+					item: "create:controls"
+					type: "item"
+				}
+				{
+					id: "7622638A5DE90384"
+					item: "railways:portable_fuel_interface"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "40F1EAD7B56A1E78"
+					item: "railways:fuel_tank"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "5373D772211D82A7"
+					item: "create:track"
+					type: "item"
+				}
+				{
+					id: "00B5F0586A931CDE"
+					item: "create:railway_casing"
+					type: "item"
+				}
+			]
+			title: "Поезда"
+			x: 9.9d
+			y: 0.45000000000000107d
+		}
+		{
+			dependencies: ["64D93F6BBA7D18A4"]
+			description: ["Цыганские блоки для компактных и эстетичных построек, могут всячески корежиться."]
+			id: "6CF2B67FC396E757"
+			rewards: [
+				{
+					id: "623ADB4B3C811929"
+					type: "xp_levels"
+					xp_levels: 1
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "13777F869F50D5E9"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "37C01DD57008E7EB"
+				item: "create:encased_chain_drive"
+				type: "item"
+			}]
+			title: "Цепные передачи"
+			x: -1.0999999999999996d
+			y: -4.049999999999999d
+		}
+		{
+			dependencies: ["377B9211773978C1"]
+			description: ["Греггификация идет полным ходом."]
+			id: "63BCE0928FF74507"
+			rewards: [
+				{
+					id: "051DC79015377CCA"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "17DD522588DA940A"
+					item: "jigsaw_pp:useless_pie"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "68C567F5B343B3A3"
+					item: "pointblank:gunmetal_ingot"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4F442F92193A167C"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "13ACE0FBAD7713B4"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "60C2591591F6E657"
+				item: "kubejs:plasteel"
+				type: "item"
+			}]
+			title: "Пласталь"
+			x: 9.4d
+			y: -5.549999999999999d
+		}
+		{
+			dependencies: [
+				"7670CA3D9C081ACB"
+				"720FE1D34A992BBA"
+			]
+			description: ["То-же самое но с фильтрами."]
+			hide_dependency_lines: false
+			id: "5F507A02D42CBF8F"
+			rewards: [
+				{
+					count: 4
+					id: "5D78F7FC654B5FBA"
+					item: "create:brass_tunnel"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "5CAD13FF82CF124F"
+					item: "create:brass_casing"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "6FFE52CE8452EC8E"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "7FEA3CC8DA8C972F"
+					item: "create:brass_funnel"
+					type: "item"
+				}
+				{
+					id: "4B6BFE76D033E84C"
+					item: "create:smart_chute"
+					type: "item"
+				}
+			]
+			title: "Умные воронки"
+			x: 4.4d
+			y: -5.049999999999999d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: [
+				"Tetra - мод на улучшение инструментов, также тетравские инструменты можно чинить до посинячки, не тратя опыт, обвшивать и создавать имбовые комбинации (метательные лопаты)."
+				""
+				"Чтобы начать мод, нажмите молотком по верстаку и положите туда любой ванильный инструмент."
+			]
+			id: "498D0BBE4A0C07B1"
+			rewards: [
+				{
+					count: 2
+					id: "6A3159CABA95DD3A"
+					item: "tetra:rack"
+					type: "item"
+				}
+				{
+					id: "5C093876E5B3B378"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "0BC58375FF78E22E"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "25B985E14EEC9F9A"
+				item: {
+					Count: 1
+					id: "tetra:modular_double"
+					tag: {
+						Damage: 0
+						"double/basic_hammer_left_material": "basic_hammer/oak"
+						"double/basic_hammer_right_material": "basic_hammer/oak"
+						"double/basic_handle_material": "basic_handle/stick"
+						"double/handle": "double/basic_handle"
+						"double/head_left": "double/basic_hammer_left"
+						"double/head_right": "double/basic_hammer_right"
+						id: "dc43d936-fbfe-4173-8971-23e7ee70292a"
+					}
+				}
+				type: "item"
+			}]
+			title: "Tetra"
+			x: -8.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: [
+				"Лошади в сборке перестали быть бесполезны!"
+				""
+				"Седло теперь имеет крафт, их можно вызывать как в смуте по команде, и они могут плавать."
+				""
+				"Также в сборку добавлены повозки которые можно нацепить на лошадь.&l"
+			]
+			id: "06516B8EB447FB0A"
+			rewards: [
+				{
+					id: "424479076C4BAD69"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "54DDF3B745588ED5"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0686756DDBEE66FD"
+				item: "minecraft:saddle"
+				type: "item"
+			}]
+			title: "Лошади"
+			x: -6.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["39393D4E402A1C7B"]
+			description: ["Добудьте нефть из человека."]
+			id: "4FEBC87FC1D5D080"
+			rewards: [
+				{
+					id: "6DF93ED63F826A4A"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "024F4EB2F53938E6"
+					item: "pointblank:eye_of_reach"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "076DD4F2F4AEB84E"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			subtitle: "А люди сатанеют, умирают превращаясь в топливо, игрушки, химикаты и нефть! "
+			tasks: [
+				{
+					id: "79E7DA5F1C18F34B"
+					item: "tfmg:crude_oil_bucket"
+					type: "item"
+				}
+				{
+					id: "6A6ED03D85D58C08"
+					item: "everythingisedibleeie:cooked_human_meat"
+					type: "item"
+				}
+			]
+			title: "Винтовка - это праздник"
+			x: 3.4000000000000004d
+			y: -7.049999999999999d
+		}
+		{
+			dependencies: ["65836C279FBC4637"]
+			description: ["Используя удобрения и мутировавшую редьку можно в 5 раз повысить производительность своего майнинга (и крафтинга)!"]
+			id: "073FB5A8EB60FDC2"
+			rewards: [
+				{
+					count: 3
+					id: "0133204119CFC469"
+					item: "jigsaw_pp:yoba_poop"
+					type: "item"
+				}
+				{
+					id: "10912E541B468501"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6F3D97E609A23646"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "69BAACD56A1DC3BF"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "destroy:hefty_beetroot"
+					}
+				}
+				title: "Any #destroy:hefty_beetroot"
+				type: "item"
+			}]
+			title: "Фитомайнинг"
+			x: 15.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["625F39D8A53C7AD7"]
+			description: [
+				"Зелья в сборке стакаются!"
+				""
+				"А также если варить их в котле из креейта вы будете получать на одно зелье больше за ту же цену."
+			]
+			id: "29A674D24CA3EC7B"
+			rewards: [
+				{
+					id: "378DDE26C3920C8D"
+					item: "handcrafted:witch_trophy"
+					type: "item"
+				}
+				{
+					id: "1938DAC45718164E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "638257F6D6AD572D"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5F5FAA38AB456AED"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "tetra:toolbelt/potion_accept"
+					}
+				}
+				title: "Any #tetra:toolbelt/potion_accept"
+				type: "item"
+			}]
+			title: "Зелья"
+			x: -0.5285714285714445d
+			y: -1.3178571428571235d
+		}
+		{
+			dependencies: [
+				"29A674D24CA3EC7B"
+				"003D17FFC9BADD30"
+			]
+			description: ["Колобки - как булыжник из террарии. берегите ноги!"]
+			id: "63604978F5DBAF36"
+			rewards: [
+				{
+					id: "5A4ADFE29A48AD8B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "391CD3ACBB6EADB2"
+					item: "mekanism:hazmat_boots"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "034E7C6AF6385EBB"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			subtitle: "Йоба"
+			tasks: [{
+				id: "057DD57AD58E95E4"
+				item: "jigsaw_pp:yoba"
+				type: "item"
+			}]
+			title: "Ехидный колобок"
+			x: -8.0d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"63604978F5DBAF36"
+				"22636C77BE1F4AD2"
+			]
+			description: ["Это же намного опаснее чем булыжник из террарии..."]
+			id: "0EAFD4BD421AD948"
+			rewards: [
+				{
+					id: "6B79C8E45D749FE6"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "57B7480AD4553DD2"
+					item: {
+						Count: 1
+						id: "jigsaw_pp:fork"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "4710F7423F50C130"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			subtitle: "Автору цистерну говна"
+			tasks: [{
+				id: "797152CB5DC30BB9"
+				item: "jigsaw_pp:yoba_poop"
+				type: "item"
+			}]
+			title: "Малишиус колобок"
+			x: -8.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["7DCB1F7D07289673"]
+			description: [
+				"Чертежи - важная часть скалирования производства."
+				""
+				"Выделите область чертежом с пером, потом загрузите чертеж на чистый чертежный лист на столе чертежника и вставьте в чертежную пушку вместе с материалами и порохом."
+				""
+				"Я очень рекомендую использовать чертежи как можно чаще, чтобы не повторять вонючие куски завода раз за разом."
+			]
+			id: "6A61DD4D4F1AD65F"
+			rewards: [
+				{
+					id: "57DC72361872D5DA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "51A47F026DC84EDE"
+					ignore_reward_blocking: true
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "4B8C436DDADE584F"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "10241E6C78AF2EE6"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "07CA2DF6737419EB"
+					item: "create:schematic_and_quill"
+					type: "item"
+				}
+				{
+					id: "32205B823DD7FFDF"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+			]
+			title: "Чертежи"
+			x: 1.9000000000000004d
+			y: -5.049999999999999d
+		}
+		{
+			dependencies: ["6A61DD4D4F1AD65F"]
+			description: [
+				"Те же чертежи но их можно вставлять до бесконечности"
+				""
+				"Например, с ними можно сделать поезд который автоматически делает подпорки в шахте, бесконечную железную дорогу или самостроящийся завод."
+				""
+				"Туториал:"
+				"https://youtu.be/jGvMWfpR8nQ"
+			]
+			id: "47BF361A2F9368EF"
+			rewards: [
+				{
+					id: "0F4B281238944248"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "245C924364E59C82"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "648C5D1E0E954B6C"
+				item: "create_pattern_schematics:empty_pattern_schematic"
+				type: "item"
+			}]
+			title: "Фрактальныые чертежи"
+			x: 1.9000000000000004d
+			y: -6.549999999999999d
+		}
+		{
+			dependencies: ["7DCB1F7D07289673"]
+			description: [
+				"В сборке можно сделать артиллерию! (только неясно зачем, самолетов то нет), а также турели."
+				""
+				"Также, артиллерию и турели можно ставить на поезда, удачи собрать дору."
+			]
+			id: "28AE8524F2FB5647"
+			rewards: [
+				{
+					id: "1E7682F30EB75338"
+					item: {
+						Count: 1
+						id: "selfexpression:soldier_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3FDE26EE8AD0A7A2"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "6E3EABE68DED24BB"
+					table_id: 701200256636078107L
+					team_reward: true
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "095855AEC6E29BE6"
+					item: "createbigcannons:cannon_mount"
+					type: "item"
+				}
+				{
+					id: "6218614C73FB0F9F"
+					item: "createbigcannons:powder_charge"
+					type: "item"
+				}
+				{
+					id: "15B9BD8FD6E9A5D0"
+					item: "createbigcannons:solid_shot"
+					type: "item"
+				}
+			]
+			title: "Artiljerija"
+			x: 3.4000000000000004d
+			y: -1.049999999999999d
+		}
+		{
+			dependencies: ["3C9B243F4593F865"]
+			description: ["Инсертеры из факторио, хороши в запитке блейзовых горелок."]
+			id: "2A33BCCEE59ECCD7"
+			rewards: [
+				{
+					id: "1C90911E34670C22"
+					item: "minecraft:disc_fragment_5"
+					type: "item"
+				}
+				{
+					id: "227ADFE6A1416456"
+					item: "minecraft:jukebox"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2C7AC99BA0DFB880"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "62B769E9A645E52A"
+				item: "create:mechanical_arm"
+				type: "item"
+			}]
+			title: "Инсертеры"
+			x: 5.9d
+			y: 0.45000000000000107d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: [
+				"Крайне интересный мод на корабли, чтобы начать кораблестроить нужно найти недостроенный корабль на берегу и доделать его досками и деталями разбросанными рядом."
+				""
+				"На корабли можно ставить блоки и пушки."
+				""
+				"Пушки из этого мода кстати лютая имба, рекомендую сделать"
+			]
+			id: "51D83C80B44C1927"
+			rewards: [
+				{
+					id: "5E166D86A4AA22D9"
+					item: {
+						Count: 1
+						id: "selfexpression:captain_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6D489E55F00EAEE6"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "6F21317854A3EBE6"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "453FEFE1560DB28B"
+				item: "alekiships:oar"
+				type: "item"
+			}]
+			title: "Aleki ships"
+			x: -7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: ["В сборке можно делать бутерброды и супы из любой еды! даже из &mЛЕКАРСТВА&r"]
+			id: "1B3FCA36BD224F1A"
+			rewards: [
+				{
+					id: "73505AC3736D70F0"
+					item: "minecraft:rose_bush"
+					type: "item"
+				}
+				{
+					id: "365F09B53D050D66"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "7EBC1B9B2E4899C0"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "73993A6718A547A0"
+				item: "culinaryconstruct:culinary_station"
+				type: "item"
+			}]
+			title: "Кулинария"
+			x: -7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["625F39D8A53C7AD7"]
+			description: ["делается из баранины на вертеле из этого же мода, нужен блейз сбоку"]
+			id: "5148528F80ACE89D"
+			rewards: [
+				{
+					id: "7EA7B91D2F6DF5AB"
+					item: "minecraft:milk_bucket"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "6283B535CDD430A8"
+					item: "farmersdelight:tomato"
+					type: "item"
+				}
+				{
+					id: "185386C79468EB92"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1445ACEB61D55C00"
+					table_id: 897793868117917368L
+					type: "random"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "18442FAD2765AFE9"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			subtitle: "Водка или семерка?"
+			tasks: [
+				{
+					id: "4733A20F5BEEAA47"
+					item: "createdoener:doener"
+					type: "item"
+				}
+				{
+					id: "3303018F324F6E8A"
+					item: "createdoener:doener_spear"
+					type: "item"
+				}
+				{
+					id: "76FEC0C292D7C234"
+					item: {
+						Count: 1
+						id: "createdoener:doener_knife"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Шаурма"
+			x: 5.9d
+			y: -1.549999999999999d
+		}
+		{
+			dependencies: ["720FE1D34A992BBA"]
+			id: "7869B6215D0D76C0"
+			rewards: [
+				{
+					id: "663530FDB96803D9"
+					item: "estrogen:uwu"
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "59BB609B521FDE71"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			subtitle: "owo"
+			tasks: [{
+				id: "6F739C64FAB05DE6"
+				item: "estrogen:estrogen_pill"
+				type: "item"
+			}]
+			title: ":3"
+			x: 6.9d
+			y: -1.049999999999999d
+		}
+		{
+			dependencies: ["720FE1D34A992BBA"]
+			description: [
+				"Мод на силовую броню, дововльно комплексный, смотрите гайды."
+				""
+				"Могу сказать что броня запитывается от энергоячейки которая заполняется блейзо андезитовыми палочками и одноразовыми баллонами с водой. Эта штука кладется в слот Curios"
+			]
+			icon: {
+				Count: 1
+				id: "protection_pixel:plague_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "549A93977B360DAB"
+			rewards: [
+				{
+					id: "654BD0A74BF06E93"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					id: "541ADB47A32442A7"
+					item: "create:cuckoo_clock"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "497DAF583D61AB82"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "0F58DEC63B4A00F8"
+				item: "protection_pixel:armorloadplatform"
+				type: "item"
+			}]
+			title: "Силовая броня"
+			x: 8.9d
+			y: -1.049999999999999d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			id: "3913BC6B777964A0"
+			rewards: [
+				{
+					id: "3C772DE34B394D82"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "19F6FD6D16E10CE4"
+					item: {
+						Count: 1
+						id: "selfexpression:wanderers_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "066A5A2AA78B513F"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "6ED5B0E2D0A2360F"
+					item: "pointblank:flintlock"
+					type: "item"
+				}
+				{
+					id: "14266859E8944A6F"
+					item: "pointblank:lead_ball"
+					type: "item"
+				}
+			]
+			title: "Пиратские пушки"
+			x: -8.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			id: "2258C974EDA92C36"
+			rewards: [
+				{
+					id: "64C3992CD5879584"
+					item: {
+						Count: 1
+						id: "selfexpression:monocle_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "126B906A319C1D20"
+					item: "minecraft:poppy"
+					type: "item"
+				}
+				{
+					id: "7216112F9277DBD8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "2FF8518DAABD3559"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			subtitle: "Шах и мат, Генрих рад!"
+			tasks: [
+				{
+					id: "5390F026C98D3BEA"
+					item: "jigsaw_chess:properio_box"
+					type: "item"
+				}
+				{
+					id: "3413E7937D552CAE"
+					item: "jigsaw_chess:purgen_box"
+					type: "item"
+				}
+			]
+			title: "Шахматы"
+			x: -8.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: [""]
+			id: "7B40CF5A882B5A44"
+			rewards: [
+				{
+					id: "3CE204B09B36FF5B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "0CB711D4ADDDD1F5"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			subtitle: "Всю свою жизнь я сумку охранял."
+			tasks: [{
+				id: "0BE3B5B5335E422C"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "curios:back"
+					}
+				}
+				title: "Any #curios:back"
+				type: "item"
+			}]
+			title: "Рюкзаки"
+			x: -8.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: ["Полностью программируемые компьютеры, совместимы с редстоуном, креейтом, а еще из них можно сделать супер дешевую МЭ сеть."]
+			id: "583591D1913F6662"
+			rewards: [
+				{
+					id: "00FBBD45DB314879"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "61CC771805685169"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "5EBDABFC0849BCD8"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "computercraft:computer"
+					}
+				}
+				title: "Any #computercraft:computer"
+				type: "item"
+			}]
+			title: "Компьютеры"
+			x: -8.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["4A5B2D0E8F1CCA12"]
+			description: ["Поставив данный вентилятор на блейзовую горелку или лаву, активировав редстоуном вы получаете максимально компактный генератор!"]
+			id: "16C5C9093FBC2C82"
+			rewards: [
+				{
+					id: "5A668DCD49DA53B1"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "372F8937D4AB88A8"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "56CAF94E02DC9E99"
+				item: "create_dd:industrial_fan"
+				type: "item"
+			}]
+			title: "Включаем вентиляторы"
+			x: -0.5999999999999996d
+			y: 0.9500000000000011d
+		}
+		{
+			dependencies: ["4A5B2D0E8F1CCA12"]
+			description: [
+				"Чтоб собрать самолет рецепт простой:"
+				"Делаем на сборочном столе самолет из досок и винта, делаем движок и улучшения по ситуации, вставляем движок в самолет и заправляем самолет."
+				""
+				"Кстати в мире есть вулканы."
+			]
+			id: "55EB3EDE6919879C"
+			rewards: [
+				{
+					id: "0A037303C8736B5B"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "251A90FACD9C9485"
+					item: {
+						Count: 1
+						id: "selfexpression:pilots_helmet_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "11158309DE051AD7"
+					table_id: 897793868117917368L
+					type: "random"
+				}
+				{
+					auto: "disabled"
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "43A9ABD09BC461B7"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			subtitle: "Ты когда-нибудь слышал о человеке который разбил 3 разных самолета?"
+			tasks: [
+				{
+					id: "0C7158BDD70F3C40"
+					item: "simpleplanes:plane_workbench"
+					type: "item"
+				}
+				{
+					id: "78E634757BBE0AA8"
+					item: "simpleplanes:propeller"
+					type: "item"
+				}
+				{
+					id: "46609918EF21A8A0"
+					item: "simpleplanes:furnace_engine"
+					type: "item"
+				}
+			]
+			title: "Самолеты"
+			x: 3.4000000000000004d
+			y: 0.9500000000000011d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: [
+				"В сборке присутствует несколько модов для упрощения стройки и добычи."
+				"Зажав ~ Можно ломать несколько блоков за раз разными формами."
+				"Зажав ALT можно сетать блоки как ворлдедитом из инвентаря."
+				""
+				"Кстати свои строительные способности можно прокачивать предметами из effortless building."
+			]
+			id: "7F498D8E2CF2FB81"
+			rewards: [
+				{
+					id: "0299EC8666B5FEB2"
+					type: "xp"
+					xp: 56
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "42D5FA17911DEB9A"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "735547B933F22C04"
+				title: "Быстрая стройка/добыча"
+				type: "checkmark"
+			}]
+			x: -7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3C9B243F4593F865"]
+			description: [
+				"Буровые установки как в сатисфактори!"
+				"Всё в пондерах."
+			]
+			id: "117EB6D0A68BCA70"
+			rewards: [
+				{
+					id: "2E0944DA58F49646"
+					item: {
+						Count: 1
+						id: "selfexpression:miner_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "19BE6F36A463B239"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "61F1ED0C22E027BB"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4B0EEDF416983656"
+				item: "createoreexcavation:drilling_machine"
+				type: "item"
+			}]
+			title: "Бурение"
+			x: 10.9d
+			y: -0.049999999999998934d
+		}
+		{
+			dependencies: ["65836C279FBC4637"]
+			description: ["если этот квест реально кто-то выполнит админский состав готов лино ему яйца пожать."]
+			id: "1D5CA5E4F62596F9"
+			rewards: [
+				{
+					id: "06C86D8B1073A56D"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					id: "312959EF9D6913B0"
+					item: {
+						Count: 1
+						id: "selfexpression:improved_chemical_protection_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7ACA63235ED1DEB0"
+					item: {
+						Count: 1
+						id: "selfexpression:improved_chemical_protection_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6C3AE84F49A67117"
+					item: {
+						Count: 1
+						id: "selfexpression:improved_chemical_protection_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "52D567723AF033C3"
+					item: {
+						Count: 1
+						id: "selfexpression:improved_chemical_protection_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0B336DEDABD3EF44"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "40FA9E2BB529C73E"
+				item: {
+					Count: 1
+					id: "destroy:baby_blue_powder"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Нам нужно варить, Джесси!"
+			x: 14.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: ["Мод на крутые подземные биомы!"]
+			hide_dependency_lines: true
+			id: "7AA954EE59407485"
+			rewards: [
+				{
+					id: "799815BA5B008875"
+					item: {
+						Count: 1
+						id: "selfexpression:wanderers_hat_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0E0D85AA074E9F58"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05426DE395C231F7"
+					table_id: 897793868117917368L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				id: "63CA749B43C49830"
+				item: "alexscaves:spelunkery_table"
+				type: "item"
+			}]
+			title: "Alex's caves"
+			x: 14.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: ["&oАккуратно соберите виноград, сложите его в поддон и выжмите сок, получившуюся массу сбродите в бочке.&r"]
+			id: "169CE9EE397C28F5"
+			rewards: [
+				{
+					id: "3C81FB5E8668737E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "468849A74DD449C0"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			subtitle: "Прицелу не наливать! Он еще маленький!"
+			tasks: [
+				{
+					id: "234DD952381C1168"
+					item: "vinery:grapevine_pot"
+					type: "item"
+				}
+				{
+					id: "1D136640FBCAD292"
+					item: "vinery:fermentation_barrel"
+					type: "item"
+				}
+			]
+			title: "Винокурня"
+			x: -6.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7AA954EE59407485"]
+			id: "6735BBE5DF5C581C"
+			rewards: [{
+				id: "4042F06198409BCC"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "05B7166CDCE5B7A7"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:magnetic_caves"
+					}
+				}
+				type: "item"
+			}]
+			title: "Магнитные пещеры"
+			x: 13.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["7AA954EE59407485"]
+			id: "7ACAC5B864FBC62B"
+			rewards: [{
+				id: "230B9FFD0D76CFDE"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "5DDCDFA41DC242A5"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:primordial_caves"
+					}
+				}
+				type: "item"
+			}]
+			title: "Динозавры"
+			x: 15.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7AA954EE59407485"]
+			description: [
+				"Единственный источник урана в сборке!"
+				""
+				"Были добавлены новые крафты, теперь этот биом можно полностью разобрать по кирпичикам, центрифугировать кислоту и профильтровать камень в уран."
+			]
+			id: "6CA4055C2174F704"
+			rewards: [{
+				id: "763C366C92A99260"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "077A6750377AC8DA"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:toxic_caves"
+					}
+				}
+				type: "item"
+			}]
+			title: "Урановые рудники"
+			x: 15.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7AA954EE59407485"]
+			id: "1899BE7923133569"
+			rewards: [{
+				id: "2A3BDD0F9F601DF0"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "026BEA1F5EF4919D"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:abyssal_chasm"
+					}
+				}
+				type: "item"
+			}]
+			title: "Подводные пещеры"
+			x: 15.5d
+			y: -8.0d
+		}
+		{
+			dependencies: [
+				"7AA954EE59407485"
+				"1899BE7923133569"
+				"6CA4055C2174F704"
+			]
+			id: "6DDD401F19F99302"
+			rewards: [
+				{
+					id: "29B7B5E406C0AF4C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "54DAF9B68750F9E3"
+					item: {
+						Count: 1
+						id: "jigsaw_pp:jotaro_hat"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A1CAD2C57530B97"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			subtitle: "джоджо референс?"
+			tasks: [
+				{
+					id: "61D8FD2123F131E6"
+					item: "alexscaves:submarine"
+					type: "item"
+				}
+				{
+					id: "4029FDCA2DC34FD3"
+					item: "alexscaves:nuclear_bomb"
+					type: "item"
+				}
+			]
+			title: "Поглушить рыбу"
+			x: 14.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7AA954EE59407485"]
+			id: "579DB338E8412DF6"
+			rewards: [{
+				id: "283781F9C77128F8"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			subtitle: "поезд бы туда проложить..."
+			tasks: [{
+				id: "36A80D65EC193D23"
+				item: {
+					Count: 1
+					id: "alexscaves:cave_tablet"
+					tag: {
+						CaveBiome: "alexscaves:forlorn_hollows"
+					}
+				}
+				type: "item"
+			}]
+			title: "Кавказ"
+			x: 14.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["7466AD7823903057"]
+			id: "06BA1D386018EB6E"
+			rewards: [
+				{
+					id: "5C2A2E0D63346F21"
+					item: "effortlessbuilding:muscles"
+					type: "item"
+				}
+				{
+					id: "7CF227F0C1B19F18"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "4FEE399BF08C4FA3"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			subtitle: "завтрак, ужин и обед"
+			tasks: [{
+				id: "6C5226A232B7A3FC"
+				item: "tfmg:bottle_of_concrete"
+				type: "item"
+			}]
+			title: "Полезный коктейль"
+			x: 5.9d
+			y: -8.049999999999999d
+		}
+		{
+			dependencies: ["7DCB1F7D07289673"]
+			description: ["Фермы железа были усложнены, теперь они делаются не через вентилятор а через центрифугу, это кратно уменьшает лаги и делает фабрику более поздней."]
+			id: "7A1D7CF7CDE376E1"
+			rewards: [
+				{
+					id: "51E807061D746FD3"
+					item: "minecraft:brick"
+					type: "item"
+				}
+				{
+					id: "2AFDBFDD2597EA08"
+					type: "xp"
+					xp: 1
+				}
+				{
+					exclude_from_claim_all: true
+					id: "668F229153D9020C"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			size: 0.7d
+			tasks: [
+				{
+					id: "3D230E7DC999F187"
+					item: "vintageimprovements:centrifuge"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "3E1390006200490B"
+					item: { Count: 4, id: "create:basin" }
+					type: "item"
+				}
+			]
+			title: "хонорабле ментион"
+			x: 0.0d
+			y: -2.4499999999999997d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			id: "721D89FF0641AEA1"
+			rewards: [
+				{
+					id: "2ECA270293AABD75"
+					type: "xp_levels"
+					xp_levels: 3
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "7FBF67C47385C136"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "79280FD5D9A559C7"
+				item: "vinery:cherry"
+				type: "item"
+			}]
+			title: "Любитель вишенок"
+			x: -7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			id: "5F1F4DFCB644DAEB"
+			rewards: [
+				{
+					id: "3AD07ACB8B8F1B1B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "4C075BB89ECFEECE"
+					item: {
+						Count: 1
+						id: "selfexpression:tactical_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "2AF1E01032873884"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "07EEADE76A015903"
+				item: {
+					Count: 1
+					id: "itemfilters:tag"
+					tag: {
+						value: "clay:soldiers"
+					}
+				}
+				title: "Any #clay:soldiers"
+				type: "item"
+			}]
+			title: "Имя стенда: Bad company"
+			x: -8.0d
+			y: -7.5d
+		}
+		{
+			dependencies: [
+				"7466AD7823903057"
+				"365AB8AF74912E6B"
+			]
+			description: ["Главный мод на RF производство, в сборке он очень порезан в угоду Create-а, цифровой шахтер был обосран, имбовая броня была обосрана и удорожена, всё было обосрано! ЭТО ЕДИНСТВЕННЫЙ НОРМАЛЬНЫЙ МОД БЫЛ, А ТЫ ЕГО ЗАСРАЛ МУДАК БЛЯТЬ, ВО ЧТО МЫ ТЕПЕРЬ ИГРАТЬ ТО БУДЕМ???"]
+			id: "1F89BA645AC0D10B"
+			rewards: [
+				{
+					id: "1186E2602D76648C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "080468C291B865BA"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			size: 1.2d
+			tasks: [{
+				id: "7356F11F22EBD9F6"
+				item: "mekanism:metallurgic_infuser"
+				type: "item"
+			}]
+			title: "Меканизм"
+			x: 7.9d
+			y: -10.049999999999999d
+		}
+		{
+			dependencies: ["77D4DEFBE732819A"]
+			description: ["Реально мля мощная пушка, и довольно дешевая!"]
+			id: "73D497FE2D80A80F"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DDDBA2EC8FB0C09"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "5CB62E7548651431"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "69B5D0BFF8FA9187"
+				item: "pneumaticcraft:minigun"
+				type: "item"
+			}]
+			title: "Миниган"
+			x: 18.4d
+			y: -1.549999999999999d
+		}
+		{
+			dependencies: [
+				"49BC297BEDB5140C"
+				"1037ECAC80EBA303"
+				"6CA4055C2174F704"
+			]
+			description: [
+				"Генерирует пар из ядерного топлива и воды, либо RF энергию напрямую, но мало."
+				""
+				"Заметьте, что взрыв реактора в сборке был увеличен в &l&o50&r&r раз, это значит что при взрыве снесет не только вашу базу, но и базу вашего друга, и мою базу, и небо, и аллаха."
+				""
+				"Гайд на реактор ищите сами, меканизм - старый мод."
+			]
+			id: "1C8BDCB04394CE42"
+			rewards: [
+				{
+					id: "5018D6B8891887B1"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "7A9B7B221080781F"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "1229BCDD88CCF229"
+					item: "mekanismgenerators:fission_reactor_casing"
+					type: "item"
+				}
+				{
+					id: "0312C03ADBDB9928"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "687468C814E47E64"
+					item: "mekanismgenerators:fission_reactor_port"
+					type: "item"
+				}
+				{
+					id: "17AA9768E01C1521"
+					item: "mekanismgenerators:fission_fuel_assembly"
+					type: "item"
+				}
+			]
+			title: "Ядерный реактор"
+			x: 18.9d
+			y: -7.549999999999999d
+		}
+		{
+			dependencies: ["1F89BA645AC0D10B"]
+			description: [
+				"Чтобы генерировать энергию от пара ядерного и термоядерного реактора нужна турбина."
+				""
+				"Гайды найдёте сами, меканизм - старый мод."
+			]
+			hide_dependency_lines: true
+			id: "1037ECAC80EBA303"
+			rewards: [
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "61204285ED78776D"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "2D7DE66E5FD787EF"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					id: "3FDEA1C1B2B09246"
+					item: "mekanismgenerators:turbine_valve"
+					type: "item"
+				}
+				{
+					id: "27F6B4015DE1BDF2"
+					item: "mekanismgenerators:turbine_rotor"
+					type: "item"
+				}
+				{
+					id: "3C7F17D1D0FFE093"
+					item: "mekanismgenerators:turbine_casing"
+					type: "item"
+				}
+				{
+					id: "00FAA28414754892"
+					item: "mekanismgenerators:turbine_vent"
+					type: "item"
+				}
+				{
+					id: "480B24C4845714B4"
+					item: "mekanismgenerators:turbine_blade"
+					type: "item"
+				}
+				{
+					id: "6ADF0CD9137A6AA5"
+					item: "mekanism:pressure_disperser"
+					type: "item"
+				}
+				{
+					id: "66317C6D17623B0E"
+					item: "mekanismgenerators:electromagnetic_coil"
+					type: "item"
+				}
+			]
+			title: "Турбина"
+			x: 18.9d
+			y: -10.049999999999999d
+		}
+		{
+			dependencies: [
+				"77D4DEFBE732819A"
+				"49BC297BEDB5140C"
+			]
+			description: [
+				"Силовая броня работающая на давлении!"
+				""
+				"Можно обвешивать улучшениями."
+			]
+			id: "288E972C24995172"
+			rewards: [
+				{
+					id: "3D7AA6CA58927794"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					exclude_from_claim_all: true
+					id: "382D8B9BC7CAE104"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2575C9DE7D29314B"
+					table_id: 897793868117917368L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "451F1A1368F2DC50"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E5F14090DC88839"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "04E68E76026D84AB"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3B6E856A76FB5B52"
+					item: {
+						Count: 1
+						id: "pneumaticcraft:pneumatic_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Пневматический экзоскелет"
+			x: 14.9d
+			y: -0.5499999999999989d
+		}
+		{
+			dependencies: [
+				"1037ECAC80EBA303"
+				"1C8BDCB04394CE42"
+			]
+			description: [
+				"Ебать какой мощный генератор тепла, почти обязателен для генерации антиматерии."
+				""
+				"А, и кстати, в сборке есть мод усложняющий контроль за термоядерными реакторами, Better Fusion Reactors, если вкратце есть целевой уровень реакции и реальный, нужно держать реальный как можно ближе к целевому, иначе бабах. "
+			]
+			id: "311FC6989A073D0F"
+			rewards: [
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "2ECDB68637F57E99"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "6250935F8F9962D2"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "6C32CE09423EAFAC"
+					item: "pointblank:doom_plasmapistol"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "095141DFF8C9C231"
+					item: "bfr:fusion_reactor_controller"
+					type: "item"
+				}
+				{
+					id: "0B1C9AF043B5700C"
+					item: "bfr:fusion_reactor_port"
+					type: "item"
+				}
+				{
+					id: "04B38E09F60D0CD5"
+					item: "mekanismgenerators:reactor_glass"
+					type: "item"
+				}
+				{
+					id: "46AB62477F6E9055"
+					item: "bfr:laser_focus_matrix"
+					type: "item"
+				}
+				{
+					id: "5D425777594F6B92"
+					item: {
+						Count: 1
+						id: "mekanismgenerators:hohlraum"
+						tag: {
+							mekData: {
+								GasTanks: [{
+									Tank: 0b
+									stored: {
+										amount: 10L
+										gasName: "mekanismgenerators:fusion_fuel"
+									}
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5C852284FF42FE16"
+					item: "mekanism:laser"
+					type: "item"
+				}
+				{
+					id: "09698DBFB5C6B1EF"
+					item: "mekanism:laser_amplifier"
+					type: "item"
+				}
+			]
+			title: "Термоядерный реактор"
+			x: 20.9d
+			y: -10.049999999999999d
+		}
+		{
+			dependencies: ["311FC6989A073D0F"]
+			description: ["Мультиблочный генератор антиматерии."]
+			id: "7E14E4E68ABECA7E"
+			rewards: [
+				{
+					id: "64131DF282101784"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "43FE6A4E757FB043"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "5CB73186DF91EDFD"
+					item: "mekanism:sps_casing"
+					type: "item"
+				}
+				{
+					id: "6FFF67C3D2BD1B47"
+					item: "mekanism:supercharged_coil"
+					type: "item"
+				}
+				{
+					id: "1956637BD2087FF8"
+					item: "mekanism:sps_port"
+					type: "item"
+				}
+				{
+					id: "536496DE7B3DAC44"
+					item: "mekanism:pellet_antimatter"
+					type: "item"
+				}
+			]
+			title: "Суперкритическое изменение фазы"
+			x: 23.4d
+			y: -10.049999999999999d
+		}
+		{
+			dependencies: ["1F89BA645AC0D10B"]
+			description: ["Мультиблочная конструкция нужная для получения рассола, гайды как всегда..."]
+			id: "7D14CF654C438EB4"
+			rewards: [
+				{
+					id: "4EA443F8695C1FCE"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "7CBE8723C4AFF159"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "62496E236CF50231"
+					item: "mekanism:thermal_evaporation_block"
+					type: "item"
+				}
+				{
+					id: "2D76AFA281A5AD70"
+					item: "mekanism:thermal_evaporation_controller"
+					type: "item"
+				}
+				{
+					id: "44F91074277E6949"
+					item: "mekanism:thermal_evaporation_valve"
+					type: "item"
+				}
+				{
+					id: "1DFC5ECF080EF725"
+					item: "mekanismgenerators:advanced_solar_generator"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Выпариватель"
+			x: 10.4d
+			y: -10.049999999999999d
+		}
+		{
+			dependencies: ["7D14CF654C438EB4"]
+			description: ["Проведя электролиз воды и рассола, соеденив Cl- и H+, вы получите соляную кислоту, проджигсавьте ее до печатной и можете использовать в производстве плат!"]
+			id: "1EB258FAF3F0C001"
+			rewards: [
+				{
+					id: "20FB3E84AB04E672"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+				{
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "2C5ABA5812ADDF4E"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "19E880686A96D7E4"
+					item: "pneumaticcraft:etching_acid_bucket"
+					type: "item"
+				}
+				{
+					id: "6BFA474AE7A9FFE7"
+					item: "pneumaticcraft:etching_tank"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Печатная кислота"
+			x: 12.9d
+			y: -10.049999999999999d
+		}
+		{
+			dependencies: ["1C8BDCB04394CE42"]
+			description: [
+				"Веселее некуда!"
+				""
+				"&oНе давать прицелу&r"
+			]
+			id: "76944DACF322D17E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5DB0C71C52774863"
+					table_id: 897793868117917368L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					icon: {
+						Count: 1
+						id: "botania:dice"
+						tag: {
+							soulbindUUID: "4d874dca-718c-4337-b036-774b51d0e2e2"
+						}
+					}
+					id: "37C2BA780999F6A5"
+					table_id: 701200256636078107L
+					type: "choice"
+				}
+				{
+					id: "35DE214E1945461F"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			shape: "pentagon"
+			size: 1.2d
+			subtitle: "(все еще менее опасна чем сам реактор)"
+			tasks: [
+				{
+					id: "5B7A8BEE991E8018"
+					item: "alexscaves:nuclear_bomb"
+					type: "item"
+				}
+				{
+					id: "732741644743BFB2"
+					item: "thermal:nuke_grenade"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Ядерка"
+			x: 20.9d
+			y: -7.549999999999999d
+		}
+		{
+			dependencies: [
+				"7ACAC5B864FBC62B"
+				"1899BE7923133569"
+			]
+			description: ["Вполне возможно самый имбовый питомец за историю моддинга."]
+			id: "00B3EFCB93AB00AD"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "14EA800CDE9EC895"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "01BCB52C492EED92"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			tasks: [{
+				id: "1589A12E88C24C1F"
+				item: "alexscaves:tremorzilla_egg"
+				type: "item"
+			}]
+			title: "Динозавр прицела"
+			x: 16.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: [
+				"Обновленный крейфиш фурнитуре! "
+				""
+				"Теперь требует энергии и специального станка."
+			]
+			id: "4CE6B30166760D17"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2EBF8EAF406630E9"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "38875B9C5688E5AB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "490F5EED2F150FA4"
+					item: "pointblank:cp2077_militech_ar_lexington"
+					type: "item"
+				}
+				{
+					count: 20
+					id: "0E0948B20669FA7B"
+					item: "pointblank:ammo9mm"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "09776CE84E0A7E80"
+					item: "refurbished_furniture:workbench"
+					type: "item"
+				}
+				{
+					id: "7FA11125479D60AC"
+					item: "refurbished_furniture:wrench"
+					type: "item"
+				}
+				{
+					id: "682A818604E7BCDA"
+					item: "refurbished_furniture:light_electricity_generator"
+					type: "item"
+				}
+				{
+					id: "6016F4A0A2D5869F"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "refurbished_furniture:wooden_toilets"
+						}
+					}
+					title: "Толкан"
+					type: "item"
+				}
+			]
+			title: "Mcrayfish's furniture"
+			x: -9.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["1C8BDCB04394CE42"]
+			description: ["МЭ система по вай-фаю!"]
+			id: "49EE8ABED945F9A6"
+			rewards: [
+				{
+					id: "7F55DE82E126D58C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7A2D17A20757B9DF"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					id: "58276AF478353EC6"
+					item: "mekanism:qio_drive_array"
+					type: "item"
+				}
+				{
+					id: "275356E45B5182C4"
+					item: "mekanism:qio_dashboard"
+					type: "item"
+				}
+				{
+					id: "717F1F0F5A8F0A64"
+					item: "mekanism:qio_drive_base"
+					type: "item"
+				}
+			]
+			title: "Applied Energistics 3"
+			x: 18.9d
+			y: -6.549999999999999d
+		}
+		{
+			dependencies: ["1F89BA645AC0D10B"]
+			id: "1B268D88A6F99A71"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6C9FA44BB13D214E"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "1FA47FDD31BE5596"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			subtitle: "Трансгуманисты на месте?"
+			tasks: [
+				{
+					id: "50D5B8C02EF2DBC4"
+					item: {
+						Count: 1
+						id: "mekanism:canteen"
+						tag: {
+							mekData: {
+								FluidTanks: [{
+									Tank: 0b
+									stored: {
+										Amount: 64000
+										FluidName: "mekanism:nutritional_paste"
+									}
+								}]
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4B6828228D67D383"
+					item: "mekanism:nutritional_liquifier"
+					type: "item"
+				}
+			]
+			title: "Питательная паста"
+			x: 7.9d
+			y: -11.549999999999999d
+		}
+		{
+			dependencies: ["1F89BA645AC0D10B"]
+			description: ["Прикольный способ найти пещеру, руду или месторождение"]
+			id: "0D6A9CD8F864A133"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "394AAFAF0CE65B94"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "01AB0518DBFE3DD9"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "510ACFD79AFCF23F"
+					item: "mekanism:seismic_reader"
+					type: "item"
+				}
+				{
+					id: "13BFEEFEEAC2B3D2"
+					item: "mekanism:seismic_vibrator"
+					type: "item"
+				}
+			]
+			title: "Сейсмический вибратор"
+			x: 6.9d
+			y: -11.549999999999999d
+		}
+		{
+			dependencies: ["7DCB1F7D07289673"]
+			description: ["Механика зачарований в сборке была переделана полностью, отключен лимит на починку и зачарование, стол зачарований теперь имеет разные характеристики в зависимости от типа полок, были удалены библиотекари, а также теперь можно сделать завод зачарований при помощи принтера из Enchantment Industry. Кстати, помощи гипер опыта можно создавать зачарования с уровнем выше максимального ванильного."]
+			id: "7947C160F5AA922A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1162D1AC50F3388F"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "3411617D4BA964ED"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "00A8E4A9026EB5E7"
+					item: "create_enchantment_industry:disenchanter"
+					type: "item"
+				}
+				{
+					id: "5D82DB72D5D7CB15"
+					item: "create_enchantment_industry:printer"
+					type: "item"
+				}
+			]
+			title: "Механика зачарований"
+			x: 4.4d
+			y: -0.5499999999999989d
+		}
+		{
+			dependencies: ["65836C279FBC4637"]
+			description: ["Сделайте динамит из человеческого жира."]
+			id: "168722ECBC37BD6E"
+			rewards: [
+				{
+					id: "5CF205FE0E2DC9AD"
+					item: {
+						Count: 1
+						id: "selfexpression:redynines_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3A712EA2348D73C9"
+					item: {
+						Count: 1
+						id: "selfexpression:redynines_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07812D3C3C77E6F9"
+					item: {
+						Count: 1
+						id: "selfexpression:redynines_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7B2162BC942C805C"
+					item: {
+						Count: 1
+						id: "selfexpression:redynines_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "761AB762BADD9F93"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7C3B05BF215F0D55"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "22208B04CBBEA4D9"
+				item: {
+					Count: 1
+					id: "destroy:dynamite"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "Мы будем варить мыло"
+			x: 13.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["683DE9F40C7CB995"]
+			id: "617811E22D2D8EFC"
+			rewards: [
+				{
+					id: "45D9400195A2DB48"
+					item: {
+						Count: 1
+						id: "selfexpression:demon_hunter_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3843CE544ED92482"
+					item: {
+						Count: 1
+						id: "selfexpression:demon_hunter_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7A4E55ECFE3E63C0"
+					item: {
+						Count: 1
+						id: "selfexpression:demon_hunter_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "6328C6A3D9779597"
+					item: {
+						Count: 1
+						id: "selfexpression:demon_hunter_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3B853F8E4D787659"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "33742B9DFD191D88"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					id: "1394BA7B057ADFE9"
+					item: "pointblank:doom_bfg9000"
+					type: "item"
+				}
+				{
+					id: "1FCEA5A5B17B2711"
+					item: "pointblank:doom_argentblastcharge"
+					type: "item"
+				}
+			]
+			x: 6.6d
+			y: -5.799999999999999d
+		}
+		{
+			dependencies: ["683DE9F40C7CB995"]
+			id: "2489FAE97C01BBEC"
+			rewards: [
+				{
+					id: "0A1644CE54D6C570"
+					item: {
+						Count: 1
+						id: "selfexpression:artem_andr_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "411336BD8C224255"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "7D559EE207C4EF23"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "5649DCDF3E3FB18E"
+				item: "pointblank:cp2077_malorian_arms_3516"
+				type: "item"
+			}]
+			x: 5.6d
+			y: -6.299999999999999d
+		}
+		{
+			dependencies: ["683DE9F40C7CB995"]
+			id: "6F7425923831A972"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6A0F6F462C8E8ACA"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "7C032309EC3FE475"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "3015C1165729EABC"
+					item: "pointblank:projectile_launcher_system"
+					type: "item"
+				}
+				{
+					id: "746D8D877B770CE8"
+					item: "pointblank:micro_rocket"
+					type: "item"
+				}
+				{
+					id: "1697BD3C15476CB5"
+					item: "pointblank:mantis_blades"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 5.1d
+			y: -7.299999999999999d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			id: "515375792CFFF3FB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "0DE439E499B48BAF"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "083F81DCAB4FFE2E"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "257B22028FBB4F64"
+					item: "camera:camera"
+					type: "item"
+				}
+				{
+					id: "4D115507652114DC"
+					item: "camera:album"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "7F3C1B1FA72F60CA"
+					item: "camera:image_frame"
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: -9.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["003D17FFC9BADD30"]
+			description: ["Источник плесени и липового меда, просто подпустите к нему пчел."]
+			id: "6FDEB4B72E423722"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3F7AB6F9F41BCD3D"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "6FEB2162994CD017"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "50DC5AD13D639CD3"
+				item: "jigsaw_pp:lenin_bust"
+				type: "item"
+			}]
+			title: "Ленин"
+			x: -2.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["003D17FFC9BADD30"]
+			description: ["Пузайцы обитают в пещерах, если одного такого избить и привязать можно будет отрезать ему ЯЙЦА и использовать в крафтах."]
+			id: "6A0AF6416D8C0F40"
+			tasks: [{
+				id: "7684E2094285E38F"
+				item: "jigsaw_pp:blabball"
+				type: "item"
+			}]
+			title: "Пузаяц"
+			x: -4.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["7DCB1F7D07289673"]
+			description: [
+				"В сборке можно дублировать руду и делать сплавы при помощи кастомной механики плавки."
+				""
+				"Кстати достать готовую жидкость можно осушителем."
+			]
+			id: "5F6FD9D1C9498F38"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1077171CDF13D74C"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "06D05F6DC6ABF246"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			size: 0.7d
+			tasks: [
+				{
+					id: "28C6F5B4FB523F7D"
+					item: "createbigcannons:basin_foundry_lid"
+					type: "item"
+				}
+				{
+					id: "15F3719CC118BE87"
+					item: "create:basin"
+					type: "item"
+				}
+			]
+			title: "Про плавку"
+			x: 0.7d
+			y: -2.1d
+		}
+		{
+			dependencies: ["22636C77BE1F4AD2"]
+			id: "1B89D0DA9100138A"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2ED4EE352547AA8E"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "5F5A6AACA6DD1C23"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "5D61B0D5DD5A8141"
+					item: "jigsaw_pp:drist_tnt_stick"
+					type: "item"
+				}
+				{
+					id: "3596D2E568940430"
+					item: "jigsaw_pp:drist_tnt"
+					type: "item"
+				}
+			]
+			title: "Поносный динамит"
+			x: -4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B89D0DA9100138A"]
+			description: [
+				"Серъезное оружие."
+				""
+				"если вы видите тут барьер значит мы либо не успели и придется добавлять в процессе сервера, либо я сюда не добавил."
+			]
+			id: "0431AE9052034289"
+			tasks: [{
+				id: "46AB45483FB0F661"
+				item: "minecraft:barrier"
+				type: "item"
+			}]
+			title: "Говноядерные бомбы"
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: ["базовый блок для заводов с кучей скинов"]
+			id: "51E714AB91DF3EEB"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3EC1967F18554CF4"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "11990F10497B9C6C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "3C84E88C81BC5B2A"
+				item: "factory_blocks:factory"
+				type: "item"
+			}]
+			title: "Заводный блок"
+			x: -9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4A5B2D0E8F1CCA12"]
+			description: [
+				"Двигатель работающий на всякой еле горючей херне."
+				""
+				"В том числе(ниже-лучше):"
+				""
+				"Понос (jigsaw_pp)"
+				"Креозот (tfmg)"
+				"Сырая нефть (tfmg)"
+				"Подсолнечное масло (create_bic_bit)"
+				"Овощное масло (pneumaticcraft)"
+				"Брага или же пиво (destroy)"
+				"Вино (destroy)"
+				"Жир (jigsaw_pp)"
+				"Этанол (pneumaticcraft)"
+				"Биодизель (pneumaticcraft)"
+				"Самогон (destroy)"
+				""
+				"Прекрасный источник энергии до ада, и конкурент парового двигателя."
+			]
+			id: "5AB299421B992571"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "58D8E952D0239814"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "32CD09E7586DB74B"
+					item: "jigsaw_pp:useless_pie"
+					type: "item"
+				}
+				{
+					id: "016DF70A14EA048B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					id: "51B7D44EE9FA1ED3"
+					item: "createdieselgenerators:diesel_engine"
+					type: "item"
+				}
+				{
+					id: "167EDE002191AC64"
+					item: "createdieselgenerators:large_diesel_engine"
+					optional_task: true
+					type: "item"
+				}
+				{
+					id: "270E17CD0AC557B2"
+					item: "createdieselgenerators:huge_diesel_engine"
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Пивной двигатель"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["498D0BBE4A0C07B1"]
+			id: "445AFA4BD6A17617"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3D5A5C0643467E66"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "50710F331102F5BE"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [{
+				id: "1B7EA87CA0292EC4"
+				item: {
+					Count: 1
+					id: "tetra:scroll_rolled"
+					tag: {
+						BlockEntityTag: {
+							data: [{
+								details: "otherworldly"
+								glyphs: [I;
+									6
+									7
+									13
+									15
+								]
+								intricate: 0b
+								key: "sword/katana/murasama_blade"
+								material: 2
+								ribbon: "c52323"
+								schematics: ["tetra:sword/katana/murasama_blade"]
+							}]
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Memories broken"
+			x: -9.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["345B4BE444EA1F23"]
+			description: [
+				"В сборке можно сыграть в дурака, только надо сделать 36 карт на наковальне из бумаги, делаются они по такому примеру:"
+				"Масть: Hearts, Diamonds, Spades, Clubs + Ранг: 2,3,4,5,6,7,8,9,10,Jack,Queen,King,Ace"
+			]
+			icon: "minecraft:paper"
+			id: "5E7A228DA9607117"
+			tasks: [
+				{
+					count: 64L
+					id: "790755FE40C16B74"
+					item: {
+						Count: 64
+						id: "minecraft:paper"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Spades ace\"}"
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5B7786F2E3467162"
+					item: {
+						Count: 1
+						id: "minecraft:bundle"
+						tag: {
+							display: {
+								Name: "{\"text\":\"Card box\"}"
+							}
+						}
+					}
+					optional_task: true
+					type: "item"
+				}
+			]
+			title: "Дурак"
+			x: -9.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["003D17FFC9BADD30"]
+			description: [
+				"Есть довольно много способов:"
+				"1. По старинке кормить людей слабительным и собирать соки."
+				"2. Поносные колобки"
+				"3. Нефтекачка-говнокачка из пивных(дизельных) генераторов."
+				"4. Золотой кубок говна"
+			]
+			id: "13CF32D471090653"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6AE14C6AF28CBDFC"
+					table_id: 701200256636078107L
+					type: "random"
+				}
+				{
+					id: "139ABB46C82FE5EB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [{
+				id: "375E0E65FE781333"
+				item: "jigsaw_pp:ponos_bucket"
+				type: "item"
+			}]
+			title: "Про автоматизацию поноса"
+			x: -2.5d
+			y: 2.0d
+		}
+	]
+	title: "Прогрессия"
+}
